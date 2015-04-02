@@ -40,7 +40,7 @@ is **for Windows and Linux only**.
 	* **Agent** 
 
 There are several videos in the Oracle Learning Library YouTube channel
-by Yukata Takatsu, ATS Group Product Manager
+by Yukata Takatsu, ATS Group Product Manager (from Japan)
 https://www.linkedin.com/pub/yutaka-takatsu/14/564/335
 
 	* [Oracle Application Testing Suite 12c: OpenScript Functional Testing Overview Aug. 26, 2012](https://www.youtube.com/watch?v=2cDsBd8Kkbo)
@@ -68,9 +68,13 @@ Promo videos for Karthik's elearn paid seminars at http://www.itelearn.com/live-
 
 	* [Oracle Application Testing Suite. What is OATS and Oracle Testing Training Tutorials overview May 7, 2014](https://www.youtube.com/watch?v=mom1ssaoU-c)
 
+From Acolate Consulting (in Australia):
+
+	* https://www.youtube.com/watch?v=srB2icE6Xf8
+
 ## <a id="OATS12.5">OATS 12.5</a>
 
-Folders in OATS12.5
+Folders in oats-win64-full-12.5.0.1.287.zip
 
 	* stage
 	* oxe
@@ -82,4 +86,22 @@ Folders in OATS12.5
 	* bin
 	* docs
 	* setup.bat 
-	
+
+## Recording and Script Generation within internet browsers
+
+CAUTION: OATS is usually behind in support of browser levels.
+This means that specific older versions of browsers need to be installed,
+with automatic updates turned OFF.
+
+Support by OATS 12.1 for Firefox 6 with:
+
+	* OpenScript WebDOM Extension
+
+Support by OATS 12.1 for Internet Explorer 9 with add-on:
+
+	* OpenScript Tool Bar (under IE Alt+View menu Toolbars)
+	* OpenScript BHO
+ 
+XPath is used by scripts to identify UI elements.
+
+For maintainability, code from Master scripts are separated into Child script assets called by the master.
