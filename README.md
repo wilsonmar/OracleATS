@@ -43,7 +43,7 @@ There are several videos in the Oracle Learning Library YouTube channel
 by Yukata Takatsu, ATS Group Product Manager
 https://www.linkedin.com/pub/yutaka-takatsu/14/564/335
 
-	* Introduction to Oracle Application Testing Suite 12.x Mar 2, 2013 https://www.youtube.com/watch?v=1GcEDCB4yno 
+	* <a target="_blank" href="https://www.youtube.com/watch?v=1GcEDCB4yno"> Introduction to Oracle Application Testing Suite 12.x Mar 2, 2013</a>
 
 	* https://www.youtube.com/watch?v=uZ6w8O9O5Uc Oracle Application Testing Suite 12c: Oracle Load Testing Overview
 
