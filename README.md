@@ -27,7 +27,7 @@ Unlike offerings from HP, SOASTA, etc. that can test a wide variety of systems,
 OATS is focused on Oracle apps only and uses only Oracle technologies:
 
 	* Oracle XE (eXpress Edition) Database version 11g Release 2 http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
-	* WebLogic Server version 10.3.5.0
+	* Standard WebLogic Server version 10.3.5.0 (with JRocketJDK), not 1035_generic.jar.
 
 Oracle has created **Accelerators** for Oracle Packaged Applications:
 
@@ -50,7 +50,7 @@ is **for Windows and Linux only**.
 		**Oracle Functional Testing** scripts written in Java using Eclipse IDE.
 	* **Oracle Test Manager (OTM)** organizes and manages the testing process.
 	* **Oracle Load Testing (OLT)** also includes server side monitoring and reporting
-	* **Agent** 
+	* **Load Testing Agent** installs also on 32 & 64 bit Windows 2008 R2 and Oracle Enterprise Linux 5 (not Windows 8).
 
 There are several videos in the Oracle Learning Library YouTube channel
 by Yukata Takatsu, ATS Group Product Manager (from Japan)
@@ -127,7 +127,12 @@ XPath is used by scripts to identify UI elements.
 
 For maintainability, code from Master scripts are separated into Child script assets called by the master.
 
+## <a id="ScriptCorrelation"></a> Script Correlation
+
+## <a id="ScriptParam"></a> Script Parametization to Vary Data Values
+
 ## <a id="ChangeMgmt"></a> Change / Patch Management
 QUESTION: When the system changes, all scripts need to be re-recorded?
 
 QUESTION: Oracle Application Change Management Pack v3 - how does that integrate with
+
