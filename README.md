@@ -111,7 +111,10 @@ From Mayur Palta (Oracle Technical Consultant):
 	* docs
 	* setup.bat 
 
-3. Confirm default folder C:\OracleOATS
+3. Right-click on setup.bat to Run as Administrator.
+4. Click Install.
+5. Confirm default folder **C:\OracleATS**.
+6. Errors ?
 
 ## <a id="OpenScripting"></a> Recording and Script Generation within internet browsers
 
