@@ -9,9 +9,11 @@ http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
 Versions are aligned with Oracle apps:
 
-	* [12.5.0.1.0](#OATS12.5) (current) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
-	* 12.4.0.2.0 http://www.oracle.com/technetwork/oem/downloads/apptesting-downloads-1983826.html
-	* 12.3.0.1.0 http://www.oracle.com/technetwork/oem/downloads/app-testing-download-2199741.html
+[12.5.0.1.0](#OATS12.5) (current) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
+
+12.4.0.2.0 http://www.oracle.com/technetwork/oem/downloads/apptesting-downloads-1983826.html
+
+12.3.0.1.0 http://www.oracle.com/technetwork/oem/downloads/app-testing-download-2199741.html
 
 The installer generates a password for a specific user during installation.
 
