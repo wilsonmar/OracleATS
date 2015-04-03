@@ -1,6 +1,9 @@
 OATS (Oracle Application Testing Suite)
 enables functional and performance testing of Oracle applications.
 
+* auto-gen TOC:
+{:toc}
+
 Its marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
