@@ -10,6 +10,14 @@ Versions are aligned with Oracle apps:
 	* 12.4.0.2.0 http://www.oracle.com/technetwork/oem/downloads/apptesting-downloads-1983826.html
 	* 12.3.0.1.0 http://www.oracle.com/technetwork/oem/downloads/app-testing-download-2199741.html
 
+The installer generates a password for a specific user during installation.
+
+Trial allows up to 20 vusers to be run.
+
+OATS began as commercial product e-Test from Empirix, which Oracle acquired March, 2008. See
+http://www.oracle.com/us/corporate/Acquisitions/empirix/index.html
+http://www.oracle.com/us/corporate/press/015619_EN
+
 Unlike offerings from HP, SOASTA, etc. that can test a wide variety of systems,
 OATS is focused on Oracle apps only and uses only Oracle technologies:
 
@@ -72,7 +80,15 @@ From Acolate Consulting (in Australia):
 
 	* https://www.youtube.com/watch?v=srB2icE6Xf8
 
-## <a id="OATS12.5">OATS 12.5</a>
+From Mayur Palta (Oracle Technical Consultant):
+
+	* Application Performance Classroom http://www.slideshare.net/oracleonthebrain/application-testing-suite-3411757
+		provides an introduction to What is testing, Business Impact of Application Quality,  
+
+## <a id="Installers"></a> Installers
+
+
+## <a id="OATS12.5"></a> OATS 12.5
 
 Folders in oats-win64-full-12.5.0.1.287.zip
 
@@ -87,7 +103,7 @@ Folders in oats-win64-full-12.5.0.1.287.zip
 	* docs
 	* setup.bat 
 
-## Recording and Script Generation within internet browsers
+## <a id="OpenScripting"></a> Recording and Script Generation within internet browsers
 
 CAUTION: OATS is usually behind in support of browser levels.
 This means that specific older versions of browsers need to be installed,
@@ -105,3 +121,8 @@ Support by OATS 12.1 for Internet Explorer 9 with add-on:
 XPath is used by scripts to identify UI elements.
 
 For maintainability, code from Master scripts are separated into Child script assets called by the master.
+
+## <a id="ChangeMgmt"></a> Change / Patch Management
+QUESTION: When the system changes, all scripts need to be re-recorded?
+
+QUESTION: Oracle Application Change Management Pack v3 - how does that integrate with
