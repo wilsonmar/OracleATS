@@ -95,7 +95,10 @@ From Mayur Palta (Oracle Technical Consultant):
 
 ## <a id="OATS12.5"></a> OATS 12.5
 
-Folders in oats-win64-full-12.5.0.1.287.zip
+1. Download
+2. Expand zip file
+
+	Folders in oats-win64-full-12.5.0.1.287.zip
 
 	* stage
 	* oxe
@@ -107,6 +110,8 @@ Folders in oats-win64-full-12.5.0.1.287.zip
 	* bin
 	* docs
 	* setup.bat 
+
+3. Confirm default folder C:\OracleOATS
 
 ## <a id="OpenScripting"></a> Recording and Script Generation within internet browsers
 
