@@ -7,6 +7,8 @@ enables functional and performance testing of Oracle applications.
 Its marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
+## <a id="Installers"></a> Installers by Version
+
 Versions are aligned with Oracle apps:
 
 [12.5.0.1.0](#OATS12.5) (current) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
@@ -19,9 +21,13 @@ The installer generates a password for a specific user during installation.
 
 Trial allows up to 20 vusers to be run.
 
+## <a id="History"></a> History
+
 OATS began as commercial product e-Test from Empirix, which Oracle acquired March, 2008. See
 http://www.oracle.com/us/corporate/Acquisitions/empirix/index.html
 http://www.oracle.com/us/corporate/press/015619_EN
+
+## <a id="Distinctions"></a> Distinctions
 
 Unlike offerings from HP, SOASTA, etc. that can test a wide variety of systems,
 OATS is focused on Oracle apps only and uses only Oracle technologies:
@@ -90,31 +96,7 @@ From Mayur Palta (Oracle Technical Consultant):
 	* Application Performance Classroom http://www.slideshare.net/oracleonthebrain/application-testing-suite-3411757
 		provides an introduction to What is testing, Business Impact of Application Quality,  
 
-## <a id="Installers"></a> Installers
 
-
-## <a id="OATS12.5"></a> OATS 12.5
-
-1. Download
-2. Expand zip file
-
-	Folders in oats-win64-full-12.5.0.1.287.zip
-
-	* stage
-	* oxe
-	* jre
-	* oui
-	* lib
-	* wls
-	* inventory
-	* bin
-	* docs
-	* setup.bat 
-
-3. Right-click on setup.bat to Run as Administrator.
-4. Click Install.
-5. Confirm default folder **C:\OracleATS**.
-6. Errors ?
 
 ## <a id="OpenScripting"></a> Recording and Script Generation within internet browsers
 
