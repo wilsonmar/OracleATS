@@ -1,3 +1,6 @@
+Just like LoadRunner, OATS replace users on internet browsers with its agent which run scripts.
+Scripts can be created automatically by using a proxy program to capture what goes through the wire when the real app is run.
+
 Unlike LoadRunner, OATS uses the same scripting technology for both functional and performance testing.
 
 ## <a id="OpenScripting"></a> Recording and Script Generation within internet browsers
