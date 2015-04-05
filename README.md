@@ -98,28 +98,6 @@ From Mayur Palta (Oracle Technical Consultant):
 
 
 
-## <a id="OpenScripting"></a> Recording and Script Generation within internet browsers
-
-CAUTION: OATS is usually behind in support of browser levels.
-This means that specific older versions of browsers need to be installed,
-with automatic updates turned OFF.
-
-Support by OATS 12.1 for Firefox 6 with:
-
-	* OpenScript WebDOM Extension
-
-Support by OATS 12.1 for Internet Explorer 9 with add-on:
-
-	* OpenScript Tool Bar (under IE Alt+View menu Toolbars)
-	* OpenScript BHO
- 
-XPath is used by scripts to identify UI elements.
-
-For maintainability, code from Master scripts are separated into Child script assets called by the master.
-
-## <a id="ScriptCorrelation"></a> Script Correlation
-
-## <a id="ScriptParam"></a> Script Parametization to Vary Data Values
 
 ## <a id="ChangeMgmt"></a> Change / Patch Management
 QUESTION: When the system changes, all scripts need to be re-recorded?
