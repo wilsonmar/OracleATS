@@ -7,6 +7,17 @@ enables functional and performance testing of Oracle applications.
 Its marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
+A LinkedIn group
+https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
+
+Oracle forum
+StackOverflow?
+Twitter?
+Facebook?
+
+Oracle has a OATS certification Exam 1z0-529 
+
+
 ## <a id="Installers"></a> Installers by Version
 
 Versions are aligned with Oracle apps:
