@@ -13,9 +13,11 @@ https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
 http://stackoverflow.com/search?q=oats
 does not have much responses.
 
-Oracle forum?
+Oracle Forums on OATS content:
+https://community.oracle.com/search.jspa?q=oats&place=%2Fplaces%2F1284&depth=ALL&customTheme=otn
 
-StackOverflow?
+StackOverflow on OATS:
+http://stackoverflow.com/search?q=oats
 
 Twitter?
 
