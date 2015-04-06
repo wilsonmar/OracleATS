@@ -77,7 +77,11 @@ is **for Windows and Linux only**.
 	* **Oracle Load Testing (OLT)** also includes server side monitoring and reporting
 	* **Load Testing Agent** installs also on 32 & 64 bit Windows 2008 R2 and Oracle Enterprise Linux 5 (not Windows 8).
 
+## Videos
+
 There are several videos in the Oracle Learning Library YouTube channel
+http://www.youtube.com/user/OracleLearning/videos?query=testing
+
 by Yukata Takatsu, ATS Group Product Manager (from Japan)
 https://www.linkedin.com/pub/yutaka-takatsu/14/564/335
 
