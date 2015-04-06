@@ -10,9 +10,15 @@ http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 A LinkedIn group
 https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
 
-Oracle forum
+http://stackoverflow.com/search?q=oats
+does not have much responses.
+
+Oracle forum?
+
 StackOverflow?
+
 Twitter?
+
 Facebook?
 
 Oracle has a OATS certification Exam 1z0-529 
