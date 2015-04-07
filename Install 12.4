@@ -23,12 +23,16 @@ A video of my first attempt at installation is at
 4. In Windows Explorer, right-click on **setup.bat** to Run as Administrator.
 5. Click Yes to UAC dialog.
 6. Click Next to the OEM Welcome.
-7. Click Next ot select default Complete. Wait for 100% Loading Java.
+7. Click Next ot select default Complete. (There is an option for OpenScript only for Oracle Functional Testing).
+Wait for 100% Loading Java.
 8. Click Next to confirm default folder **C:\OracleATS**.
 9. Enter password and press Next.
 10. Click Allow access to Windows Firewall Security Alert.
 11. Click Install. Wait for 100%. It gets stuck some at 99%.
 12. Click Exit.
+
+### Windows Start menu
+
 
 ### Envrionment Variables created
 
@@ -38,13 +42,14 @@ DB_PASS
 DB_PORT
 DB_URL
 DB_USER
-HELPER_SERVICE
-MW_HOME
-OATS_AGENT_PASS
-OATS_HOME
-WL_HOME
-WLS_PASS
 
+HELPER_SERVICE = 7979
+MW_HOME = C:\OracleATS\wls
+OATS_AGENT_PASS
+OATS_HOME = C:\OracleATS
+Path = C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin;....
+WL_HOME = C:\OracleATS\wls\wlserver
+WLS_PASS
 
 ### Windows Registry
 
