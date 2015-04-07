@@ -79,6 +79,33 @@ Tools
 	Restart Oracle Application Testing - target C:\OracleATS\bin\restartSvc.bat "Oracle ATS Server"
 	Stop Oracle Application Testing - target C:\OracleATS\bin\stopSvc.bat "Oracle ATS Server"
 
+### Services installed
+
+Oralce ATS Agent - Launch requested load agents and monitor process health.
+	Started automatically from
+	C:\OracleATS\agentmanager\bin\AgentManagerService.exe -s C:\OracleATS\agentmanager\bin\\AgentManagerService.conf
+	
+Oracle ATS Helper - Query helpers launched by OpenScript/JavaAgent and reuse them.
+	Started automatically from 
+	C:\OracleATS\helperService\bin\wrapper.exe -s C:\OracleATS\helperService\conf\wrapper.conf
+	
+Oracle ATS Server at C:\ORACLE~1\wls\wlserver\server\bin\beasvc.exe
+
+OracleServiceXE -
+	Auto started at c:\oracleats\oxe\app\oracle\product\10.2.0\server\bin\ORACLE.EXE XE
+
+OracleJobSchedulerXE - Disabled at c:\oracleats\oxe\app\oracle\product\10.2.0\server\Bin\extjob.exe XE
+
+OracleXEClrAgent - Manually started from C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin\OraClrAgnt.exe agent_sid=CLRExtProc max_dispatchers=2 tcp_dispatchers=0 max_task_threads=6 max_sessions=25
+
+OracleXETNSListener - 
+	Started automatically at C:\OracleATS\oxe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe
+
+
+
+
+
+
 ### Windows Registry
 
 
