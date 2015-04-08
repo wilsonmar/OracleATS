@@ -77,6 +77,11 @@ is **for Windows and Linux only**.
 	* **Oracle Load Testing (OLT)** also includes server side monitoring and reporting
 	* **Load Testing Agent** installs also on 32 & 64 bit Windows 2008 R2 and Oracle Enterprise Linux 5 (not Windows 8).
 
+## Alternatives to OATS
+
+The TurnKey Solutions PeopleSoft Accelerator
+http://www.turnkeysolutions.com/PeopleSoft-accelerator.php
+is based on cFactory™ which Business Process Testing (BPT) objects stored within HP ALM servers.
 
 
 ## <a id="ChangeMgmt"></a> Change / Patch Management
