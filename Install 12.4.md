@@ -54,13 +54,13 @@ WLS_PASS
 2. Click All Programs
 3. Under Oracle Application Testing Suite:
 
-Administrator - Shortcut To http://localhost:8088/admin (does not support IE 11)
-OpenScript - C:\OracleATS\openScript\OpenScript.exe -configuration openscript_configuration -vm C:\OracleATS\openScript\jre\bin\javaw.exe -vmargs -Xmx512m -XX:MaxPermSize=256m
-Oracle Load Testing - Shortcut To http://localhost:8088/olt/
-Oracle Test Manager - Shortcut To http://localhost:8088/otm/
-Release Notes - C:\OracleATS\docs\en\readme.htm
-Uninstall OATS - C:\OracleATS\uninstall\bin\uninstall.bat
-Documentation (dated July, 2014)
+* Administrator - Shortcut To http://localhost:8088/admin (does not support IE 11)
+* OpenScript - C:\OracleATS\openScript\OpenScript.exe -configuration openscript_configuration -vm C:\OracleATS\openScript\jre\bin\javaw.exe -vmargs -Xmx512m -XX:MaxPermSize=256m
+* Oracle Load Testing - Shortcut To http://localhost:8088/olt/
+* Oracle Test Manager - Shortcut To http://localhost:8088/otm/
+* Release Notes - C:\OracleATS\docs\en\readme.htm
+* Uninstall OATS - C:\OracleATS\uninstall\bin\uninstall.bat
+* Documentation (dated July, 2014)
 	ATS Installation Guide - C:\OracleATS\docs\en\OATSInstallationGuide.pdf
 	Getting Started Guide - C:\OracleATS\docs\en\OATSGettingStartedGuide.pdf
 	Load Testing ServerStats Guide - C:\OracleATS\docs\en\OLTLoadTestingServerStatsGuide.pdf
@@ -68,10 +68,10 @@ Documentation (dated July, 2014)
 	OpenScript Programmer's Reference - C:\OracleATS\docs\en\OpenScriptProgammersReference.pdf
 	OpenScript User's Guide - C:\OracleATS\docs\en\OpenScriptUsersGuide.pdf
 	Test Manager User's Guide - C:\OracleATS\docs\en\OTMTestManagerUsersGuide.pdf
-Samples
+* Samples
 	Start MedRec creates a window to http://localhost:7011/medrec/
 	Stop MedRec
-Tools
+* Tools
 	About OATS - C:\OracleATS\docs\en\about_oats.htm
 	Create Support Package - C:\OracleATS\bin\oats_support.bat
 	Oracle Application Testing Database Configuration - C:\OracleATS\bin\DbConfig.bat
