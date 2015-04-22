@@ -18,9 +18,11 @@ https://www.linkedin.com/pub/yutaka-takatsu/14/564/335
 
 	* [Oracle Application Testing Suite 12c: OpenScript Functional Testing Overview Aug. 26, 2012](https://www.youtube.com/watch?v=2cDsBd8Kkbo)
 
-	* [Introduction to Oracle Application Testing Suite 12.x Mar 2, 2013](https://www.youtube.com/watch?v=1GcEDCB4yno)
+	* Introduction to Oracle Application Testing Suite 12.x Mar 2, 2013
+	https://www.youtube.com/watch?v=1GcEDCB4yno
 
-	* [Oracle Application Testing Suite 12c: Oracle Load Testing Overview](https://www.youtube.com/watch?v=uZ6w8O9O5Uc)
+	* [Oracle Application Testing Suite 12c: Oracle Load Testing Overview]
+	https://www.youtube.com/watch?v=uZ6w8O9O5Uc
 
 	* [Oracle Application Testing Suite 12c: Test Manager Overview Aug. 31, 2012](https://www.youtube.com/watch?v=ZKjcLYOMCkk) by Karilyn Kao, Sr. Product Manager
 
@@ -44,8 +46,6 @@ From Acolate Consulting (in Australia):
 	* https://www.youtube.com/watch?v=srB2icE6Xf8
 
 From Mayur Palta (Oracle Technical Consultant):
-
-	* Application Performance Classroom http://www.slideshare.net/oracleonthebrain/application-testing-suite-3411757
-		provides an introduction to What is testing, Business Impact of Application Quality,  
-
+	Application Performance Classroom http://www.slideshare.net/oracleonthebrain/application-testing-suite-3411757
+	provides an introduction to What is testing, Business Impact of Application Quality,  
 
