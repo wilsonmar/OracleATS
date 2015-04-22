@@ -11,6 +11,7 @@ OXE = Oracle XE (database)
 OEM = Oracle Enterprise Manager
 OFT = Oracle Functional Test 
 OLT = Oracle Load Test (module within OATS)
+OTM = Oracle Test Manager
 
 PTF = Peoplesoft Test Framework
 WLS = WebLogic Server (application server)
