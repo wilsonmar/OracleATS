@@ -25,28 +25,41 @@ Facebook?
 
 ## <a name="OracleDocs"></a> Oracle's Documents
 
-The booklist for version 12.x ???
-
+The booklist for version 12.x are not online.
 The latest I've found on internet is version 9.0 for Windows 32-bit (E15487-01, September 2009)
 https://docs.oracle.com/cd/E25291_01/nav/portal_booklist.htm
-
-* Oracle's Getting Started Guide 
-
-* Oracle Application Testing Suite Release Notes
-	
-	> Oracle's Release Notes for OATS 9.20 (E17387-03, November 2010) is at
+and Oracle's Release Notes for OATS 9.20 (E17387-03, November 2010) is at
 	https://docs.oracle.com/cd/E25294_01/doc.920/e17387/toc.htm#BEGIN
 
-* Oracle Functional Testing for Web Applications Functional Testing User’s Guide
+But documents are in the docs folder after folder OracleATS is installed
+(listed in the order I recommend you read them):
+
+* OATSReleaseNotes.pdf and readme.htm web page
+	- Oracle Application Testing Suite Release Notes
+* OATSInstallationGuide.pdf
+	- Installation Guide
+* OATSGettingStartedGuide.pdf and web page OATSInstallationGuide.htm
+
+* OLTLoadTestingUsersGuide.pdf
+	- Oracle Load Testing for Web Applications Load Testing User’s Guide
+* OLTLoadTestingServerStatsGuide.pdf
+	- ServerStats User Guid
+
+* OpenScriptUsersGuide.pdf
+	- Oracle Functional Testing for Web Applications Functional Testing User’s Guide
+
+* OpenScriptProgammersReference.pdf
+	- Oracle Functional Testing for Web Applications Application Programming Interface
+Reference
+
+* OTMTestManagerUsersGuide.pdf 
+	- Oracle Test Manager for Web Applications Test Manager User’s Guide
+
 * Oracle Functional Testing for Web Applications Job Scheduler User’s Guide
 * Oracle Functional Testing for Web Applications Navigation Editor User’s Guide
-* Oracle Functional Testing for Web Applications Application Programming Interface
-Reference
 * Oracle Functional Testing for Web Applications Result Objects Reference
 
-* Oracle Load Testing for Web Applications Load Testing User’s Guide
-
-* Oracle Test Manager for Web Applications Test Manager User’s Guide
+### <a name="CertificationExams"></a> Certification Exams
 
 Oracle has a OATS certification Exam 1z0-529 
 
