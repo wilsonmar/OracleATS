@@ -8,6 +8,9 @@ OATS enables functional and performance testing of Oracle applications.
 Oracle's marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
+	* Product Twitter: #OracleATS
+	* Produc Facebook?
+
 Mikael Fries (@MikaelFries in Munich, Germany) 
 is Director Product Management at Oracle Responsible for Oracle's application testing products. 
 
@@ -21,10 +24,6 @@ does not have much responses.
 Oracle Forums on OATS content:
 https://community.oracle.com/search.jspa?q=oats&place=%2Fplaces%2F1284&depth=ALL&customTheme=otn
 
-Twitter: #OracleATS
-
-Facebook?
-
 ## <a name="OracleDocs"></a> Oracle's Documents
 
 The booklist for version 12.x are not online.
@@ -36,29 +35,22 @@ and Oracle's Release Notes for OATS 9.20 (E17387-03, November 2010) is at
 But documents are in the docs folder after folder OracleATS is installed
 (listed in the order I recommend you read them):
 
-* OATSReleaseNotes.pdf and readme.htm web page
-- Oracle Application Testing Suite Release Notes
+* OATSReleaseNotes.pdf and readme.htm web page - Oracle Application Testing Suite Release Notes
 
-* OATSInstallationGuide.pdf
-- Installation Guide
+* OATSInstallationGuide.pdf - Installation Guide
 
 * OATSGettingStartedGuide.pdf and web page OATSInstallationGuide.htm
 
-* OLTLoadTestingUsersGuide.pdf
-- Oracle Load Testing for Web Applications Load Testing User’s Guide
+* OLTLoadTestingUsersGuide.pdf - Oracle Load Testing for Web Applications Load Testing User’s Guide
 
-* OLTLoadTestingServerStatsGuide.pdf
-- ServerStats User Guid
+* OLTLoadTestingServerStatsGuide.pdf - ServerStats User Guid
 
-* OpenScriptUsersGuide.pdf
-- Oracle Functional Testing for Web Applications Functional Testing User’s Guide
+* OpenScriptUsersGuide.pdf - Oracle Functional Testing for Web Applications Functional Testing User’s Guide
 
-* OpenScriptProgammersReference.pdf
-- Oracle Functional Testing for Web Applications Application Programming Interface
+* OpenScriptProgammersReference.pdf - Oracle Functional Testing for Web Applications Application Programming Interface
 Reference
 
-* OTMTestManagerUsersGuide.pdf 
-- Oracle Test Manager for Web Applications Test Manager User’s Guide
+* OTMTestManagerUsersGuide.pdf - Oracle Test Manager for Web Applications Test Manager User’s Guide
 
 Where are these?
 * Oracle Functional Testing for Web Applications Job Scheduler User’s Guide
