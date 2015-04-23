@@ -13,6 +13,6 @@ OFT = Oracle Functional Test
 OLT = Oracle Load Test (module within OATS)
 OTM = Oracle Test Manager
 
-PTF = Peoplesoft Test Framework
+PTF = Peopletools Testing Framework
 WLS = WebLogic Server (application server)
 ```
