@@ -37,7 +37,7 @@ http://www.oracle.com/technetwork/oem/app-quality-mgmt/wp-25tips-oltscripts-2287
 * Videos from Chad Thompson http://chadthompson.me at Zirous Inc. First Steps: OATS and Oracle OpenScript Sep 24/25, 2012
 https://www.youtube.com/watch?v=6Wnmh1HHY4Y
 
-*Promo videos for Karthik's elearn paid seminars at --
+* Promo videos for Karthik's elearn paid seminars at --
 http://www.itelearn.com/live-training/ :
 
 * Oracle Application Testing Suit Day 01 Demo.wmv May 16, 2014
