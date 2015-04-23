@@ -1,5 +1,7 @@
-OATS (Oracle Application Testing Suite)
-enables functional and performance testing of Oracle applications.
+The name of this repo (OracleATS) is taken from the default folder name where the product is installed.
+The product is also referred to as **OATS** (Oracle Application Testing Suite).
+
+OATS enables functional and performance testing of Oracle applications.
 
 ## <a name="SocialMedia"></a> Social Media
 
