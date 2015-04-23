@@ -6,7 +6,7 @@ Separate videos cover End-To-End test, Components,
 as well as verticals: Field Service, Process Manufacturing, Project Management, Quoting, 
 
 	* [Oracle Application Testing Suite 12: Oracle Flow Builder Demo: Create a End to End Test Flow (OEM) Mar. 26,2014]
-	* https://www.youtube.com/watch?v=Cx1oVvIBPBU
+https://www.youtube.com/watch?v=Cx1oVvIBPBU
 	
 There are several videos in the Oracle Learning Library YouTube channel
 http://www.youtube.com/user/OracleLearning/videos?query=testing
