@@ -6,6 +6,9 @@ enables functional and performance testing of Oracle applications.
 Oracle's marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
+Mikael Fries (@MikaelFries in Munich, Germany) 
+is Director Product Management at Oracle Responsible for Oracle's application testing products. 
+
 A LinkedIn group
 https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
 
@@ -16,15 +19,18 @@ does not have much responses.
 Oracle Forums on OATS content:
 https://community.oracle.com/search.jspa?q=oats&place=%2Fplaces%2F1284&depth=ALL&customTheme=otn
 
-Twitter: #OracleTest
+Twitter: #OracleATS
 
 Facebook?
 
 ## <a name="OracleDocs"></a> Oracle's Documents
 
-* Oracle's Getting Started Guide 
+The booklist for version 12.x ???
 
-	> for version 9.0 for Windows 32-bit (E15487-01, September 2009)
+The latest I've found on internet is version 9.0 for Windows 32-bit (E15487-01, September 2009)
+https://docs.oracle.com/cd/E25291_01/nav/portal_booklist.htm
+
+* Oracle's Getting Started Guide 
 
 * Oracle Application Testing Suite Release Notes
 	
