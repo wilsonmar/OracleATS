@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=s-Ylw9PdNXU
 * Technical White Paper: 25 Tips for Creating Effective Load Test Scripts using Oracle Load Testing for E-Business Suite and Fusion Applications: 
 http://www.oracle.com/technetwork/oem/app-quality-mgmt/wp-25tips-oltscripts-2287467.pdf
 
-*Videos from Chad Thompson http://chadthompson.me at Zirous Inc. First Steps: OATS and Oracle OpenScript Sep 24/25, 2012
+* Videos from Chad Thompson http://chadthompson.me at Zirous Inc. First Steps: OATS and Oracle OpenScript Sep 24/25, 2012
 https://www.youtube.com/watch?v=6Wnmh1HHY4Y
 
 *Promo videos for Karthik's elearn paid seminars at --
