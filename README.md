@@ -1,27 +1,46 @@
 OATS (Oracle Application Testing Suite)
 enables functional and performance testing of Oracle applications.
 
-* auto-gen TOC:
-{:toc}
+## <a name="SocialMedia"></a> Social Media
 
-Its marketing home page is at
+Oracle's marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
 A LinkedIn group
 https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
 
+StackOverflow on OATS:
 http://stackoverflow.com/search?q=oats
 does not have much responses.
 
 Oracle Forums on OATS content:
 https://community.oracle.com/search.jspa?q=oats&place=%2Fplaces%2F1284&depth=ALL&customTheme=otn
 
-StackOverflow on OATS:
-http://stackoverflow.com/search?q=oats
-
-Twitter?
+Twitter: #OracleTest
 
 Facebook?
+
+## <a name="OracleDocs"></a> Oracle's Documents
+
+* Oracle's Getting Started Guide 
+
+	> for version 9.0 for Windows 32-bit (E15487-01, September 2009)
+
+* Oracle Application Testing Suite Release Notes
+	
+	> Oracle's Release Notes for OATS 9.20 (E17387-03, November 2010) is at
+	https://docs.oracle.com/cd/E25294_01/doc.920/e17387/toc.htm#BEGIN
+
+* Oracle Functional Testing for Web Applications Functional Testing User’s Guide
+* Oracle Functional Testing for Web Applications Job Scheduler User’s Guide
+* Oracle Functional Testing for Web Applications Navigation Editor User’s Guide
+* Oracle Functional Testing for Web Applications Application Programming Interface
+Reference
+* Oracle Functional Testing for Web Applications Result Objects Reference
+
+* Oracle Load Testing for Web Applications Load Testing User’s Guide
+
+* Oracle Test Manager for Web Applications Test Manager User’s Guide
 
 Oracle has a OATS certification Exam 1z0-529 
 
