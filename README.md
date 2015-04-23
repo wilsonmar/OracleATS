@@ -104,10 +104,15 @@ is **for Windows and Linux only**.
 
 ## Alternatives to OATS
 
+Oracle also has PTF (Peopltools Testing Framework) for functional testing only
+(no performance testing capability). 
+It does not invoke URLs but internal objects.
+
 The TurnKey Solutions PeopleSoft Accelerator
 http://www.turnkeysolutions.com/PeopleSoft-accelerator.php
 is based on cFactory™ which Business Process Testing (BPT) objects stored within HP ALM servers.
 
+HP QTP/Unified Functional Testing
 
 ## <a id="ChangeMgmt"></a> Change / Patch Management
 QUESTION: When the system changes, all scripts need to be re-recorded?
