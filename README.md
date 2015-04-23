@@ -37,26 +37,30 @@ But documents are in the docs folder after folder OracleATS is installed
 (listed in the order I recommend you read them):
 
 * OATSReleaseNotes.pdf and readme.htm web page
-	- Oracle Application Testing Suite Release Notes
+- Oracle Application Testing Suite Release Notes
+
 * OATSInstallationGuide.pdf
-	- Installation Guide
+- Installation Guide
+
 * OATSGettingStartedGuide.pdf and web page OATSInstallationGuide.htm
 
 * OLTLoadTestingUsersGuide.pdf
-	- Oracle Load Testing for Web Applications Load Testing User’s Guide
+- Oracle Load Testing for Web Applications Load Testing User’s Guide
+
 * OLTLoadTestingServerStatsGuide.pdf
-	- ServerStats User Guid
+- ServerStats User Guid
 
 * OpenScriptUsersGuide.pdf
-	- Oracle Functional Testing for Web Applications Functional Testing User’s Guide
+- Oracle Functional Testing for Web Applications Functional Testing User’s Guide
 
 * OpenScriptProgammersReference.pdf
-	- Oracle Functional Testing for Web Applications Application Programming Interface
+- Oracle Functional Testing for Web Applications Application Programming Interface
 Reference
 
 * OTMTestManagerUsersGuide.pdf 
-	- Oracle Test Manager for Web Applications Test Manager User’s Guide
+- Oracle Test Manager for Web Applications Test Manager User’s Guide
 
+Where are these?
 * Oracle Functional Testing for Web Applications Job Scheduler User’s Guide
 * Oracle Functional Testing for Web Applications Navigation Editor User’s Guide
 * Oracle Functional Testing for Web Applications Result Objects Reference
