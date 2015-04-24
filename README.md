@@ -5,6 +5,8 @@ OATS enables functional and performance testing of Oracle applications.
 
 ## <a name="SocialMedia"></a> Social Media
 
+[![Join the chat at https://gitter.im/wilsonmar/OracleATS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wilsonmar/OracleATS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Oracle's marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
