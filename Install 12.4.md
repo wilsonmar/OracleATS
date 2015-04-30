@@ -1,4 +1,6 @@
-# Installation
+# Install 12.4
+
+https://zengin.wordpress.com/2013/05/19/simple-database-load-testing-using-oracle-application-testing-suite/
 
 ## <a id="OATS12.4"></a> OATS 12.4
 
