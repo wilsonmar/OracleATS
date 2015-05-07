@@ -14,8 +14,12 @@ http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 Mikael Fries (@MikaelFries in Munich, Germany) 
 is Director Product Management at Oracle Responsible for Oracle's application testing products. 
 
-A LinkedIn group
-https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
+LinkedIn groups:
+* https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
+  was created by Infosys consultant Prasad Prabhakaran
+
+* https://www.linkedin.com/grp/home?gid=6610481
+  was created by Shrawan Shekar.
 
 StackOverflow on OATS:
 http://stackoverflow.com/search?q=oats
