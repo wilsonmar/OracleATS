@@ -1,6 +1,6 @@
 ## <a id="OATS12.5"></a> OATS 12.5 Installation
 
-1. Website
+1. Uninstall the previous OATS.
 2. Click to download file oats-win64-full-12.5.0.1.287.zip  (1,635,871 KB). This took over an hour over my 3MB/sec line. 
 3. Expand zip file. Folders:
 
@@ -21,6 +21,27 @@
 8. Errors 
 9. Right-click on the folder. It's 1.77 GB.
 
+### <a name="OATS_Uninstall"> Uninstall Oracle XE Database</a>
+
+http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
+
+* Uninstall all Oracle components using the Oracle Universal Installer (OUI).
+  I skip this.
+
+* Run a Command, regedit.exe and delete the HKEY_LOCAL_MACHINE/SOFTWARE/Oracle key. 
+This contains registry entires for all Oracle products.
+
+* Delete any references to Oracle services left behind in the following part of the registry:
+  HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services/Ora*
+  (OracleATSAgent, OracleATSHelper, OracleATSServer, OracleJobSchedulerXE, OracleMTSRecoveryService, 
+  OracleServiceXE, OracleXEClrAgent, OracleXENSListener)
+
+* Reboot your machine.
+* Delete the "C:\Oracle" directory, or whatever directory is your ORACLE_BASE.
+* Delete the "C:\Program Files\Oracle" directory.
+* Empty the contents of your "c:\temp" directory.
+* Empty your recycle bin.
+* 
 ### Services installed
 
 Oralce ATS Agent - Launch requested load agents and monitor process health.
