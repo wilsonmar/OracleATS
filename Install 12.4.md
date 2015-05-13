@@ -51,6 +51,7 @@ Wait for 100% Loading Java.
 * WL_HOME = C:\OracleATS\wls\wlserver
 * WLS_PASS
 
+(Acronymn WL = WebLogic and WLS = WebLogic Server, the middleware product Oracle got when it acquired BEA).
 
 ### Windows Start menu
 1. Click Start orb
