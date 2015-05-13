@@ -70,10 +70,10 @@ Oracle has a OATS certification Exam 1z0-529
 
 Versions are aligned with Oracle apps:
 
-[12.5.0.2.0](#OATS12.5) (current) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
+[12.5.0.2.0](#OATS_12.5) (current) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
 out May 5, 2015.
 
-[12.5.0.1.0](#OATS12.5) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
+[12.5.0.1.0](#OATS_12.5) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
 
 12.4.0.2.0 http://www.oracle.com/technetwork/oem/downloads/apptesting-downloads-1983826.html
 
