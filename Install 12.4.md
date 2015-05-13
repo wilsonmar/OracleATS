@@ -36,20 +36,20 @@ Wait for 100% Loading Java.
 
 ### Envrionment Variables created
 
-DB_HOST
-DB_HOSTNAME
-DB_PASS
-DB_PORT
-DB_URL
-DB_USER
+	* DB_HOST
+	* DB_HOSTNAME
+	* DB_PASS
+	* DB_PORT
+	* DB_URL
+	* DB_USER
 
-HELPER_SERVICE = 7979
-MW_HOME = C:\OracleATS\wls
-OATS_AGENT_PASS
-OATS_HOME = C:\OracleATS
-Path = C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin;....
-WL_HOME = C:\OracleATS\wls\wlserver
-WLS_PASS
+* HELPER_SERVICE = 7979
+* MW_HOME = C:\OracleATS\wls
+* OATS_AGENT_PASS
+* OATS_HOME = C:\OracleATS
+* Path = C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin;....
+* WL_HOME = C:\OracleATS\wls\wlserver
+* WLS_PASS
 
 
 ### Windows Start menu
