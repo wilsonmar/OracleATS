@@ -6,6 +6,7 @@ The product is also referred to as **OATS** (Oracle Application Testing Suite).
 * <a href="#SocialMedia"> Social Media</a>
 * <a href="#Installers"> Installers by Version</a>
 * <a href="#CertificationExams"> Certification Exams</a>
+* <a href="#SkillsToLearn"> Skills To Learn</a>
 * <a href="#OracleDocs"> Oracle's Documents</a>
 * <a href="#Alternatives"> Alternatives to OATS</a>
 * <a href="#Distinctions"> Distinctions</a>
@@ -83,6 +84,8 @@ http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&g
 2. Look for a test center near you at https://wsr.pearsonvue.com/testtaker/registration/SelectTestCenterProximity/ORACLE/489836
 2. Schedule an exam time at http://pearsonvue.com/oracle/
 3. Show up and answer 76% of 70 multiple choice questions correctly within 120 minutes.
+
+### <a name="SkillsToLearn"> Skills To Learn</a>
 
 Application Testing Suite (ATS)
 
