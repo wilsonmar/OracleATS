@@ -3,6 +3,7 @@
 
 * <a href="#InstallSteps">Installation Steps</a>
 * <a href="#EnvVars">Environment Variables created</a>
+* <a href="#FoldersCreated"> Folders Created</a>
 * <a href="#WindowsStart">Windows Start menu</a>
 * <a href="#ServicesInstalled">Services installed</a>
 * <a href="#WindowsRegistry">Windows Registry</a>
@@ -33,7 +34,6 @@
 
 ### <a name="EnvVars">Environment Variables Created</a>
 
-
 	* DB_HOST
 	* DB_HOSTNAME
 	* DB_PASS
@@ -48,8 +48,34 @@
 * $Path = C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin;....
 * $WL_HOME = C:\OracleATS\wls\wlserver
 * $WLS_PASS
+* $PATH  added?
 
 (Acronymn WL = WebLogic and WLS = WebLogic Server, the middleware product Oracle got when it acquired BEA).
+
+### <a name="FoldersCreated"> OracleATS Folders Created</a>
+
+What's in each folder:
+
+* agent
+* agentmaster
+* bin - binary Windows .bat batch and Linux .sh shell scripts
+* config - 
+* data -
+* DataCollector -
+* docs - documents (pdf and web HTML files) in english and japanese.
+* FormsFT
+* helperService
+* jdk (java development kit)
+* lib - 
+* logs
+* oats
+* OFT (where OpenScripts go)
+* openScript
+* oxe
+* tmp
+* uninstall/jre
+* wls - weblogic server
+
 
 ### <a name="WindowsStart">Windows Start menu</a>
 1. Click Start orb
