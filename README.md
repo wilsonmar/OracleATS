@@ -84,6 +84,33 @@ Oracle has a OATS certification Exam 1z0-529
 Oracle Enterprise Manager 11g Application Quality Management Essentials
 http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-529&p_org_id=&lang=
 
+You get after paying $245 and answering 76% of 70 multiple choice questions correctly in 120 minutes.
+
+Application Testing Suite (ATS)
+
+*    Describe ATS use-cases
+*    Implement and Configure ATS 
+*    Configure, use and describe Oracle Load Testing 
+*    Configure, use and describe Oracle Test Manager 
+*    Configure and implement OpenScript 
+*    Create, edit and use test scripts with OpenScript 
+*    Describe OFT installation, licensing and component architecture 
+*    Analyze platform requirements for OFT
+
+Real Application Testing
+
+*    Describe Real Application Testing (RAT) components 
+*    Configure, use and describe SQL Performance Analyzer (SPA) 
+*    Configure, use and describe Database Replay 
+
+Data Masking
+
+ *   Analyze scenarios for using Data Masking
+ *   Implement Data Masking 
+ *   Install and license Data Masking Pack 
+ *   Describe the components and features of Data Masking
+
+
 ## <a name="Installers"> Installers by Version</a>
 
 Versions are aligned with Oracle apps:
