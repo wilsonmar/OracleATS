@@ -4,9 +4,9 @@ The product is also referred to as **OATS** (Oracle Application Testing Suite).
 * <a href="#Purpose"> Purpose</a>
 * <a href="#History"> History</a>
 * <a href="#SocialMedia"> Social Media</a>
-* <a href="#OracleDocs"> Oracle's Documents</a>
-* <a href="#CertificationExams"> Certification Exams</a>
 * <a href="#Installers"> Installers by Version</a>
+* <a href="#CertificationExams"> Certification Exams</a>
+* <a href="#OracleDocs"> Oracle's Documents</a>
 * <a href="#Alternatives"> Alternatives to OATS</a>
 * <a href="#Distinctions"> Distinctions</a>
 
@@ -45,38 +45,33 @@ StackOverflow on OATS: http://stackoverflow.com/search?q=oats
 Oracle Forums on OATS content:
 https://community.oracle.com/search.jspa?q=oats&place=%2Fplaces%2F1284&depth=ALL&customTheme=otn
 
-## <a name="OracleDocs"> Oracle's Documents</a>
 
-The booklist for version 12.x are not online.
-The latest I've found on internet is version 9.0 for Windows 32-bit (E15487-01, September 2009)
-https://docs.oracle.com/cd/E25291_01/nav/portal_booklist.htm
-and Oracle's Release Notes for OATS 9.20 (E17387-03, November 2010) is at
-	https://docs.oracle.com/cd/E25294_01/doc.920/e17387/toc.htm#BEGIN
 
-But documents are in the docs folder after folder OracleATS is installed
-(listed in the order I recommend you read them):
+## <a name="Installers"> Installers by Version</a>
 
-* OATSReleaseNotes.pdf and readme.htm web page - Oracle Application Testing Suite Release Notes
+Versions are aligned with Oracle apps:
 
-* OATSInstallationGuide.pdf - Installation Guide
+[12.5.0.2.0](Install_12.5.2.md) (current) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
+out May 5, 2015.
 
-* OATSGettingStartedGuide.pdf and web page OATSInstallationGuide.htm
+[12.5.0.1.0](Install_12.5.1.md) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
 
-* OLTLoadTestingUsersGuide.pdf - Oracle Load Testing for Web Applications Load Testing User’s Guide
+12.4.0.2.0 http://www.oracle.com/technetwork/oem/downloads/apptesting-downloads-1983826.html
 
-* OLTLoadTestingServerStatsGuide.pdf - ServerStats User Guid
+12.3.0.1.0 http://www.oracle.com/technetwork/oem/downloads/app-testing-download-2199741.html
 
-* OpenScriptUsersGuide.pdf - Oracle Functional Testing for Web Applications Functional Testing User’s Guide
+The installer generates a password for a specific user during installation.
 
-* OpenScriptProgammersReference.pdf - Oracle Functional Testing for Web Applications Application Programming Interface
-Reference
+Trial allows up to 20 vusers to be run.
 
-* OTMTestManagerUsersGuide.pdf - Oracle Test Manager for Web Applications Test Manager User’s Guide
+## <a id="ChangeMgmt"> Change / Patch Management</a>
+QUESTION: When the system changes, all scripts need to be re-recorded?
 
-Where are these?
-* Oracle Functional Testing for Web Applications Job Scheduler User’s Guide
-* Oracle Functional Testing for Web Applications Navigation Editor User’s Guide
-* Oracle Functional Testing for Web Applications Result Objects Reference
+QUESTION: Oracle Application Change Management Pack v3 - how does that integrate with
+
+
+
+
 
 ### <a name="CertificationExams"> Certification Exams</a>
 
@@ -111,27 +106,40 @@ Data Masking
  *   Describe the components and features of Data Masking
 
 
-## <a name="Installers"> Installers by Version</a>
+## <a name="OracleDocs"> Oracle's Documents</a>
 
-Versions are aligned with Oracle apps:
+The booklist for version 12.x are not online.
+The latest I've found on internet is version 9.0 for Windows 32-bit (E15487-01, September 2009)
+https://docs.oracle.com/cd/E25291_01/nav/portal_booklist.htm
+and Oracle's Release Notes for OATS 9.20 (E17387-03, November 2010) is at
+	https://docs.oracle.com/cd/E25294_01/doc.920/e17387/toc.htm#BEGIN
 
-[12.5.0.2.0](Install_12.5.2.md) (current) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
-out May 5, 2015.
+But documents are in the docs folder after folder OracleATS is installed
+(listed in the order I recommend you read them):
 
-[12.5.0.1.0](Install_12.5.1.md) http://www.oracle.com/technetwork/oem/downloads/index-084446.html
+* OATSReleaseNotes.pdf and readme.htm web page - Oracle Application Testing Suite Release Notes
 
-12.4.0.2.0 http://www.oracle.com/technetwork/oem/downloads/apptesting-downloads-1983826.html
+* OATSInstallationGuide.pdf - Installation Guide
 
-12.3.0.1.0 http://www.oracle.com/technetwork/oem/downloads/app-testing-download-2199741.html
+* OATSGettingStartedGuide.pdf and web page OATSInstallationGuide.htm
 
-The installer generates a password for a specific user during installation.
+* OLTLoadTestingUsersGuide.pdf - Oracle Load Testing for Web Applications Load Testing User’s Guide
 
-Trial allows up to 20 vusers to be run.
+* OLTLoadTestingServerStatsGuide.pdf - ServerStats User Guid
 
-## <a id="ChangeMgmt"> Change / Patch Management</a>
-QUESTION: When the system changes, all scripts need to be re-recorded?
+* OpenScriptUsersGuide.pdf - Oracle Functional Testing for Web Applications Functional Testing User’s Guide
 
-QUESTION: Oracle Application Change Management Pack v3 - how does that integrate with
+* OpenScriptProgammersReference.pdf - Oracle Functional Testing for Web Applications Application Programming Interface
+Reference
+
+* OTMTestManagerUsersGuide.pdf - Oracle Test Manager for Web Applications Test Manager User’s Guide
+
+Where are these?
+* Oracle Functional Testing for Web Applications Job Scheduler User’s Guide
+* Oracle Functional Testing for Web Applications Navigation Editor User’s Guide
+* Oracle Functional Testing for Web Applications Result Objects Reference
+
+
 
 ## <a name="Alternatives"> Alternatives to OATS</a>
 
