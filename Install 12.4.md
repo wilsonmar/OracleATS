@@ -1,11 +1,15 @@
 # Install 12.4
 
+* <a href="InstallSteps">Installation Steps</a>
+* <a href="#EnvVars">Envrionment Variables created</a>
+* <a href="#WindowsStart">Windows Start menu</a>
+* <a href="#ServicesInstalled">Services installed</a
+
 https://zengin.wordpress.com/2013/05/19/simple-database-load-testing-using-oracle-application-testing-suite/
 
-## <a id="OATS12.4"></a> OATS 12.4
+### <a id="InstallSteps">Installation Steps</a>
 
 A video of my first attempt at installation is not available.
-
 
 1. Website http://www.oracle.com/technetwork/oem/downloads/apptesting-downloads-1983826.html
 2. Click to download file oats-win64-full-12.4.0.2.129.zip (1,635,871 KB). This took over an hour over my 3MB/sec line. 
@@ -34,7 +38,7 @@ Wait for 100% Loading Java.
 12. Click Exit.
 
 
-### Envrionment Variables created
+### <a name="EnvVars">Envrionment Variables created</a>
 
 	* DB_HOST
 	* DB_HOSTNAME
@@ -53,7 +57,7 @@ Wait for 100% Loading Java.
 
 (Acronymn WL = WebLogic and WLS = WebLogic Server, the middleware product Oracle got when it acquired BEA).
 
-### Windows Start menu
+### <a name="WindowsStart">Windows Start menu</a>
 1. Click Start orb
 2. Click All Programs
 3. Under Oracle Application Testing Suite:
@@ -83,7 +87,7 @@ Wait for 100% Loading Java.
 	Restart Oracle Application Testing - target C:\OracleATS\bin\restartSvc.bat "Oracle ATS Server"
 	Stop Oracle Application Testing - target C:\OracleATS\bin\stopSvc.bat "Oracle ATS Server"
 
-### Services installed
+### <a name="ServicesInstalled">Services installed</a
 
 Oralce ATS Agent - Launch requested load agents and monitor process health.
 	Started automatically from
