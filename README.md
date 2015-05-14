@@ -82,7 +82,7 @@ Where are these?
 
 Oracle has a OATS certification Exam 1z0-529 
 Oracle Enterprise Manager 11g Application Quality Management Essentials
-
+http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-529&p_org_id=&lang=
 
 ## <a name="Installers"> Installers by Version</a>
 
