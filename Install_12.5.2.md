@@ -4,6 +4,7 @@
 * <a href="#InstallSteps">Installation Steps</a>
 * <a href="#EnvVars">Environment Variables created</a>
 * <a href="#FoldersCreated"> Folders Created</a>
+* <a href="#AppData"> Application Data</a>
 * <a href="#WindowsStart">Windows Start menu</a>
 * <a href="#ServicesInstalled">Services installed</a>
 * <a href="#WindowsRegistry">Windows Registry</a>
@@ -71,13 +72,22 @@ What's in each folder:
 * oats
 * OFT (where OpenScripts go)
 * openScript
-* oxe
+* oxe - Oracle XE database
 * tmp
 * uninstall/jre
 * wls - weblogic server
 
 
-### <a name="WindowsStart">Windows Start menu</a>
+### <a name="AppData"> Application Data</a>
+Within folder C:\OracleATS\oxe\oradata\XE
+* CONTROL.DBF
+* SYSAUX.DBF
+* SYSTEM.DBF
+* TEMP.DBF
+* UNDO.DBF
+* USERS.DBF
+
+## <a name="WindowsStart">Windows Start menu</a>
 1. Click Start orb
 2. Click All Programs
 3. Under Oracle Application Testing Suite:
