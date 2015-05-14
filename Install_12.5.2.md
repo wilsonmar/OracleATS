@@ -8,6 +8,7 @@
 * <a href="#WindowsStart">Windows Start menu</a>
 * <a href="#ServicesInstalled">Services installed</a>
 * <a href="#WindowsRegistry">Windows Registry</a>
+* <a href="#IEToolbar"> IE Toolbar</a>
 * <a href="#Uninstall"> Uninstall Steps</a>
 
 ### <a name="InstallSteps">Installation Steps</a>
@@ -157,8 +158,21 @@ Listed alphabetically, as shown in the Windows Services dialog:
 	* OracleXEClrAgent, 
 	* OracleXENSListener
 
+## <a name="IEToolbar"> Remove IE Toolbar</a>
 
-### <a name="Uninstall"> Uninstall Steps</a>
+Windows does not allow delete of folder C:\OracleATS\openScript\Oracle IE Toolbar
+unless these actions remove the dependencies:
+
+1. Open Internet Explorer.
+2. Click the wheel icon at the upper right corner and select **Manage add-ons**.
+3. Click Toolbars and Extensions in Add-on Types.
+4. Right-click on **Oracle.OATS.OpenScript.IETool..** and select Disable.
+5. Confirm Disable.
+6. Note this also disables **OpenScript BHO** as well.
+7. Click Close button to dismiss the window.
+
+
+## <a name="Uninstall"> Uninstall Steps</a>
 
 There is no uninstaller. Lame, I know. 
 But it's more "manly" to uninstall manually. ;)
