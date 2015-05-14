@@ -5,7 +5,7 @@
 3. Expand zip file. Folders:
 
 	* bin - binary Windows .bat batch and Linux .sh shell scripts
-  * docs - documents (pdf and web HTML files) in english and japanese.
+  	* docs - documents (pdf and web HTML files) in english and japanese.
 	* inventory
 	* jre - java runtime environment
 	* lib - 
@@ -25,7 +25,8 @@
 
 http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
 
-* Uninstall all Oracle components using the Oracle Universal Installer (OUI).
+* Uninstall all Oracle components using the Oracle Universal Installer (OUI)
+	from http://www.oracle.com/technetwork/database/10204-winx64-vista-win2k8-082253.html
   I skip this.
 
 * Run a Command, regedit.exe and delete the HKEY_LOCAL_MACHINE/SOFTWARE/Oracle key. 
