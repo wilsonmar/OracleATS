@@ -64,7 +64,7 @@ The installer generates a password for a specific user during installation.
 
 Trial allows up to 20 vusers to be run.
 
-## <a id="ChangeMgmt"> Change / Patch Management</a>
+### <a id="ChangeMgmt"> Change / Patch Management</a>
 QUESTION: When the system changes, all scripts need to be re-recorded?
 
 QUESTION: Oracle Application Change Management Pack v3 - how does that integrate with
@@ -73,7 +73,7 @@ QUESTION: Oracle Application Change Management Pack v3 - how does that integrate
 
 
 
-### <a name="CertificationExams"> Certification Exams</a>
+## <a name="CertificationExams"> Certification Exams</a>
 
 Oracle has a OATS certification Exam 1z0-529 
 Oracle Enterprise Manager 11g Application Quality Management Essentials
