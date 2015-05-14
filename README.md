@@ -8,12 +8,11 @@ OATS enables functional and performance testing of Oracle applications.
 Oracle's marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
-	* Product Twitter: #OracleATS
-	* Product Facebook?
-	* Product LinkedIn?
-
 Mikael Fries (@MikaelFries in Munich, Germany) 
 is Director Product Management at Oracle Responsible for Oracle's application testing products. 
+
+* Product Twitter: #OracleATS
+* Product Facebook?
 
 LinkedIn groups:
 * https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
@@ -22,9 +21,8 @@ LinkedIn groups:
 * https://www.linkedin.com/grp/home?gid=6610481
   was created by Shrawan Shekar.
 
-StackOverflow on OATS:
-http://stackoverflow.com/search?q=oats
-does not have much responses.
+StackOverflow on OATS: http://stackoverflow.com/search?q=oats
+	does not have much responses.
 
 Oracle Forums on OATS content:
 https://community.oracle.com/search.jspa?q=oats&place=%2Fplaces%2F1284&depth=ALL&customTheme=otn
