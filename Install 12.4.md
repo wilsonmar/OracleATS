@@ -3,7 +3,7 @@
 * <a href="InstallSteps">Installation Steps</a>
 * <a href="#EnvVars">Envrionment Variables created</a>
 * <a href="#WindowsStart">Windows Start menu</a>
-* <a href="#ServicesInstalled">Services installed</a
+* <a href="#ServicesInstalled">Services installed</a>
 
 https://zengin.wordpress.com/2013/05/19/simple-database-load-testing-using-oracle-application-testing-suite/
 
@@ -87,7 +87,7 @@ Wait for 100% Loading Java.
 	Restart Oracle Application Testing - target C:\OracleATS\bin\restartSvc.bat "Oracle ATS Server"
 	Stop Oracle Application Testing - target C:\OracleATS\bin\stopSvc.bat "Oracle ATS Server"
 
-### <a name="ServicesInstalled">Services installed</a
+### <a name="ServicesInstalled">Services installed</a>
 
 Oralce ATS Agent - Launch requested load agents and monitor process health.
 	Started automatically from
