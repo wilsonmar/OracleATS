@@ -2,10 +2,10 @@
 
 
 * <a href="#InstallSteps">Installation Steps</a>
+* <a href="#EnvVars">Environment Variables created</a>
+* <a href="#WindowsStart">Windows Start menu</a>
 * <a href="#ServicesInstalled">Services installed</a>
 * <a href="#WindowsRegistry">Windows Registry</a>
-* <a href="#WindowsStart">Windows Start menu</a>
-* <a href="#EnvVars">Envrionment Variables created</a>
 * <a href="#Uninstall"> Uninstall Steps</a>
 
 ### <a name="InstallSteps">Installation Steps</a>
@@ -30,6 +30,56 @@
 7. Confirm default folder **C:\OracleATS**. 
 8. Errors 
 9. Right-click on the folder. It's 1.77 GB.
+
+### <a name="EnvVars">Environment Variables Created</a>
+
+
+	* DB_HOST
+	* DB_HOSTNAME
+	* DB_PASS
+	* DB_PORT
+	* DB_URL
+	* DB_USER
+
+* $HELPER_SERVICE = 7979
+* $MW_HOME = C:\OracleATS\wls
+* $OATS_AGENT_PASS
+* $OATS_HOME = C:\OracleATS
+* $Path = C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin;....
+* $WL_HOME = C:\OracleATS\wls\wlserver
+* $WLS_PASS
+
+(Acronymn WL = WebLogic and WLS = WebLogic Server, the middleware product Oracle got when it acquired BEA).
+
+### <a name="WindowsStart">Windows Start menu</a>
+1. Click Start orb
+2. Click All Programs
+3. Under Oracle Application Testing Suite:
+
+* Administrator - Shortcut To http://localhost:8088/admin (does not support IE 11)
+* OpenScript - C:\OracleATS\openScript\OpenScript.exe -configuration openscript_configuration -vm C:\OracleATS\openScript\jre\bin\javaw.exe -vmargs -Xmx512m -XX:MaxPermSize=256m
+* Oracle Load Testing - Shortcut To http://localhost:8088/olt/
+* Oracle Test Manager - Shortcut To http://localhost:8088/otm/
+* Release Notes - C:\OracleATS\docs\en\readme.htm
+* Uninstall OATS - C:\OracleATS\uninstall\bin\uninstall.bat
+* Documentation (dated July, 2014)
+	* ATS Installation Guide - C:\OracleATS\docs\en\OATSInstallationGuide.pdf
+	* Getting Started Guide - C:\OracleATS\docs\en\OATSGettingStartedGuide.pdf
+	* Load Testing ServerStats Guide - C:\OracleATS\docs\en\OLTLoadTestingServerStatsGuide.pdf
+	* Load Testing User's Guide - C:\OracleATS\docs\en\OLTLoadTestingUsersGuide.pdf
+	* OpenScript Programmer's Reference - C:\OracleATS\docs\en\OpenScriptProgammersReference.pdf
+	* OpenScript User's Guide - C:\OracleATS\docs\en\OpenScriptUsersGuide.pdf
+	* Test Manager User's Guide - C:\OracleATS\docs\en\OTMTestManagerUsersGuide.pdf
+* Samples
+	* Start MedRec creates a window to http://localhost:7011/medrec/
+	* Stop MedRec stops the Windows service.
+* Tools
+	* About OATS - C:\OracleATS\docs\en\about_oats.htm
+	* Create Support Package - C:\OracleATS\bin\oats_support.bat
+	* Oracle Application Testing Database Configuration - C:\OracleATS\bin\DbConfig.bat
+	* Oracle Load Testing Agent Authorization Manager - C:\OracleATS\jdk\jre\bin\javaw.exe -jar C:\OracleATS\agentmanager\AMAuthManager.jar
+	* Restart Oracle Application Testing - target C:\OracleATS\bin\restartSvc.bat "Oracle ATS Server"
+	* Stop Oracle Application Testing - target C:\OracleATS\bin\stopSvc.bat "Oracle ATS Server"
 
 
 ### <a name="ServicesInstalled"> Services Installed</a>
@@ -70,56 +120,6 @@ Listed alphabetically, as shown in the Windows Services dialog:
 	* OracleServiceXE, 
 	* OracleXEClrAgent, 
 	* OracleXENSListener
-
-
-### <a name="EnvVars">Envrionment Variables Created</a>
-
-	* DB_HOST
-	* DB_HOSTNAME
-	* DB_PASS
-	* DB_PORT
-	* DB_URL
-	* DB_USER
-
-* HELPER_SERVICE = 7979
-* MW_HOME = C:\OracleATS\wls
-* OATS_AGENT_PASS
-* OATS_HOME = C:\OracleATS
-* Path = C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin;....
-* WL_HOME = C:\OracleATS\wls\wlserver
-* WLS_PASS
-
-(Acronymn WL = WebLogic and WLS = WebLogic Server, the middleware product Oracle got when it acquired BEA).
-
-### <a name="WindowsStart">Windows Start menu</a>
-1. Click Start orb
-2. Click All Programs
-3. Under Oracle Application Testing Suite:
-
-* Administrator - Shortcut To http://localhost:8088/admin (does not support IE 11)
-* OpenScript - C:\OracleATS\openScript\OpenScript.exe -configuration openscript_configuration -vm C:\OracleATS\openScript\jre\bin\javaw.exe -vmargs -Xmx512m -XX:MaxPermSize=256m
-* Oracle Load Testing - Shortcut To http://localhost:8088/olt/
-* Oracle Test Manager - Shortcut To http://localhost:8088/otm/
-* Release Notes - C:\OracleATS\docs\en\readme.htm
-* Uninstall OATS - C:\OracleATS\uninstall\bin\uninstall.bat
-* Documentation (dated July, 2014)
-	ATS Installation Guide - C:\OracleATS\docs\en\OATSInstallationGuide.pdf
-	Getting Started Guide - C:\OracleATS\docs\en\OATSGettingStartedGuide.pdf
-	Load Testing ServerStats Guide - C:\OracleATS\docs\en\OLTLoadTestingServerStatsGuide.pdf
-	Load Testing User's Guide - C:\OracleATS\docs\en\OLTLoadTestingUsersGuide.pdf
-	OpenScript Programmer's Reference - C:\OracleATS\docs\en\OpenScriptProgammersReference.pdf
-	OpenScript User's Guide - C:\OracleATS\docs\en\OpenScriptUsersGuide.pdf
-	Test Manager User's Guide - C:\OracleATS\docs\en\OTMTestManagerUsersGuide.pdf
-* Samples
-	Start MedRec creates a window to http://localhost:7011/medrec/
-	Stop MedRec
-* Tools
-	About OATS - C:\OracleATS\docs\en\about_oats.htm
-	Create Support Package - C:\OracleATS\bin\oats_support.bat
-	Oracle Application Testing Database Configuration - C:\OracleATS\bin\DbConfig.bat
-	Oracle Load Testing Agent Authorization Manager - C:\OracleATS\jdk\jre\bin\javaw.exe -jar C:\OracleATS\agentmanager\AMAuthManager.jar
-	Restart Oracle Application Testing - target C:\OracleATS\bin\restartSvc.bat "Oracle ATS Server"
-	Stop Oracle Application Testing - target C:\OracleATS\bin\stopSvc.bat "Oracle ATS Server"
 
 
 ### <a name="Uninstall"> Uninstall Steps</a>
