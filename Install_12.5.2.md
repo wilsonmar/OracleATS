@@ -120,6 +120,11 @@ Within folder C:\OracleATS\oxe\oradata\XE
 
 
 ### <a name="ServicesInstalled"> Services Installed</a>
+1. Press the Windows Start key or click the Windows Start orb.
+2. Type **Services** and press Enter for the Component Services dialog.
+3. Click on **Services(Local)** for the list of services.
+3. Click on one of the services under the Name column heading and press O.
+
 Listed alphabetically, as shown in the Windows Services dialog:
 
 * **Oracle ATS Agent** - Launch requested load agents and monitor process health.
@@ -141,6 +146,12 @@ Listed alphabetically, as shown in the Windows Services dialog:
 
 * **OracleXETNSListener** - 
 	Started automatically at C:\OracleATS\oxe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe
+
+#### Stop services running:
+4. Right-click on each Oracle service and select Stop.
+5. Click the red X at the upper-right corner of the window to dismiss the window.
+
+After removing Windows Registry entries for Oracle, services installed no longer appears.
 
 
 ### <a name="WindowsRegistry">Windows Registry</a>
@@ -170,7 +181,7 @@ unless these actions remove the dependencies:
 5. Confirm Disable.
 6. Note this also disables **OpenScript BHO** as well.
 7. Click Close button to dismiss the window.
-
+8. Exit all instances of Internet Explorer.
 
 ## <a name="Uninstall"> Uninstall Steps</a>
 
@@ -182,16 +193,6 @@ In http://www.oracle.com/technetwork/database/10204-winx64-vista-win2k8-082253.h
 there is a mention of using some **Oracle Universal Installer (OUI)**
 to uninstall all Oracle components. But I can't find it
 http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
-
-#### Stop services running:
-1. Press the Windows Start key or click the Windows Start orb.
-2. Type **Services** and press Enter for the Component Services dialog.
-3. Click on **Services(Local)** for the list of services.
-3. Click on one of the services under the Name column heading and press O.
-4. Right-click on each Oracle service and select Stop.
-5. Click the red X at the upper-right corner of the window to dismiss the window.
-
-After removing Windows Registry entries for Oracle, services installed no longer appears.
 
 #### Remove Oracle Windows Registry Entries:
 1. Open a Run window as Administrator.
