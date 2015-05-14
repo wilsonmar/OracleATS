@@ -1,14 +1,14 @@
 ## OATS 12.5.0.2 Installation
 
 
-* <a href="InstallSteps">Installation Steps</a>
+* <a href="#InstallSteps">Installation Steps</a>
 * <a href="#Uninstall"> Uninstall Steps</a>
 * <a href="#ServicesInstalled">Services installed</a>
 * <a href="#WindowsRegistry">Windows Registry</a>
 * <a href="#WindowsStart">Windows Start menu</a>
 * <a href="#EnvVars">Envrionment Variables created</a>
 
-### <a id="InstallSteps">Installation Steps</a>
+### <a name="InstallSteps">Installation Steps</a>
 
 1. Uninstall the previous OATS.
 2. Click to download file oats-win64-full-12.5.0.1.287.zip  (1,635,871 KB). This took over an hour over my 3MB/sec line. 
