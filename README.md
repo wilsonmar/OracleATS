@@ -9,7 +9,8 @@ Oracle's marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
 	* Product Twitter: #OracleATS
-	* Produc Facebook?
+	* Product Facebook?
+	* Product LinkedIn?
 
 Mikael Fries (@MikaelFries in Munich, Germany) 
 is Director Product Management at Oracle Responsible for Oracle's application testing products. 
