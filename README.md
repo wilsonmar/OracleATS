@@ -1,9 +1,26 @@
 The name of this repo (OracleATS) is taken from the default folder name where the product is installed.
 The product is also referred to as **OATS** (Oracle Application Testing Suite).
 
+* <a href="#Purpose"> Purpose</a>
+* <a href="#History"> History</a>
+* <a href="#SocialMedia"> Social Media</a>
+* <a href="#OracleDocs"> Oracle's Documents</a>
+* <a href="#CertificationExams"> Certification Exams</a>
+* <a id="Installers"> Installers by Version</a>
+* <a href="#Alternatives"> Alternatives to OATS</a>
+* <a href="#Distinctions"> Distinctions</a>
+
+## <a name="Purpose"> Purpose</a>
+
 OATS enables functional and performance testing of Oracle applications.
 
-## <a name="SocialMedia"></a> Social Media
+* <a name="History"> History</a>
+
+OATS began as commercial product e-Test from Empirix, which Oracle acquired March, 2008. See
+http://www.oracle.com/us/corporate/Acquisitions/empirix/index.html
+http://www.oracle.com/us/corporate/press/015619_EN
+
+## <a name="SocialMedia"> Social Media</a>
 
 Oracle's marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
@@ -28,7 +45,7 @@ StackOverflow on OATS: http://stackoverflow.com/search?q=oats
 Oracle Forums on OATS content:
 https://community.oracle.com/search.jspa?q=oats&place=%2Fplaces%2F1284&depth=ALL&customTheme=otn
 
-## <a name="OracleDocs"></a> Oracle's Documents
+## <a name="OracleDocs"> Oracle's Documents</a>
 
 The booklist for version 12.x are not online.
 The latest I've found on internet is version 9.0 for Windows 32-bit (E15487-01, September 2009)
@@ -61,12 +78,12 @@ Where are these?
 * Oracle Functional Testing for Web Applications Navigation Editor User’s Guide
 * Oracle Functional Testing for Web Applications Result Objects Reference
 
-### <a name="CertificationExams"></a> Certification Exams
+### <a name="CertificationExams"> Certification Exams</a>
 
 Oracle has a OATS certification Exam 1z0-529 
 Oracle Enterprise Manager 11g Application Quality Management Essentials
 
-## <a id="Installers"></a> Installers by Version
+## <a id="Installers"> Installers by Version</a>
 
 Versions are aligned with Oracle apps:
 
@@ -83,13 +100,24 @@ The installer generates a password for a specific user during installation.
 
 Trial allows up to 20 vusers to be run.
 
-## <a id="History"></a> History
+## <a id="ChangeMgmt"> Change / Patch Management</a>
+QUESTION: When the system changes, all scripts need to be re-recorded?
 
-OATS began as commercial product e-Test from Empirix, which Oracle acquired March, 2008. See
-http://www.oracle.com/us/corporate/Acquisitions/empirix/index.html
-http://www.oracle.com/us/corporate/press/015619_EN
+QUESTION: Oracle Application Change Management Pack v3 - how does that integrate with
 
-## <a id="Distinctions"></a> Distinctions
+## <a name="Alternatives"> Alternatives to OATS</a>
+
+Oracle also has PTF (Peopltools Testing Framework) for functional testing only
+(no performance testing capability). 
+It does not invoke URLs but internal objects.
+
+The TurnKey Solutions PeopleSoft Accelerator
+http://www.turnkeysolutions.com/PeopleSoft-accelerator.php
+is based on cFactory™ which Business Process Testing (BPT) objects stored within HP ALM servers.
+
+HP QTP/Unified Functional Testing
+
+## <a name="Distinctions"> Distinctions</a>
 
 Unlike offerings from HP, SOASTA, etc. that can test a wide variety of systems,
 OATS is focused on Oracle apps only and uses only Oracle technologies:
@@ -119,21 +147,4 @@ is **for Windows and Linux only**.
 	* **Oracle Test Manager (OTM)** organizes and manages the testing process.
 	* **Oracle Load Testing (OLT)** also includes server side monitoring and reporting
 	* **Load Testing Agent** installs also on 32 & 64 bit Windows 2008 R2 and Oracle Enterprise Linux 5 (not Windows 8).
-
-## Alternatives to OATS
-
-Oracle also has PTF (Peopltools Testing Framework) for functional testing only
-(no performance testing capability). 
-It does not invoke URLs but internal objects.
-
-The TurnKey Solutions PeopleSoft Accelerator
-http://www.turnkeysolutions.com/PeopleSoft-accelerator.php
-is based on cFactory™ which Business Process Testing (BPT) objects stored within HP ALM servers.
-
-HP QTP/Unified Functional Testing
-
-## <a id="ChangeMgmt"></a> Change / Patch Management
-QUESTION: When the system changes, all scripts need to be re-recorded?
-
-QUESTION: Oracle Application Change Management Pack v3 - how does that integrate with
 
