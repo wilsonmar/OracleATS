@@ -6,7 +6,7 @@ The product is also referred to as **OATS** (Oracle Application Testing Suite).
 * <a href="#SocialMedia"> Social Media</a>
 * <a href="#OracleDocs"> Oracle's Documents</a>
 * <a href="#CertificationExams"> Certification Exams</a>
-* <a id="Installers"> Installers by Version</a>
+* <a href="#Installers"> Installers by Version</a>
 * <a href="#Alternatives"> Alternatives to OATS</a>
 * <a href="#Distinctions"> Distinctions</a>
 
