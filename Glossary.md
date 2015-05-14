@@ -13,6 +13,9 @@ OFT = Oracle Functional Test
 OLT = Oracle Load Test (module within OATS)
 OTM = Oracle Test Manager
 
+RAT = Real Application Testing
+
 PTF = Peopletools Testing Framework
+SPA = SQL Performance Analyzer 
 WLS = WebLogic Server (application server)
 ```
