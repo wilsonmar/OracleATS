@@ -13,6 +13,7 @@ is Director Product Management at Oracle Responsible for Oracle's application te
 
 * Product Twitter: #OracleATS
 * Product Facebook?
+* Product Wikipedia page?
 
 LinkedIn groups:
 * https://www.linkedin.com/groups/Oracle-Application-Testing-Suite-OATS-2008546
@@ -63,7 +64,7 @@ Where are these?
 ### <a name="CertificationExams"></a> Certification Exams
 
 Oracle has a OATS certification Exam 1z0-529 
-
+Oracle Enterprise Manager 11g Application Quality Management Essentials
 
 ## <a id="Installers"></a> Installers by Version
 
