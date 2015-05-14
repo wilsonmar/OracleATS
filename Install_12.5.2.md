@@ -42,8 +42,8 @@ This contains registry entires for all Oracle products.
 * Delete the "C:\Program Files\Oracle" directory.
 * Empty the contents of your "c:\temp" directory.
 * Empty your recycle bin.
-* 
-### Services installed
+
+### <a name="ServicesInstalled"> Services installed</a>
 
 Oralce ATS Agent - Launch requested load agents and monitor process health.
 	Started automatically from
