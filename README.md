@@ -79,7 +79,10 @@ Oracle has a OATS certification Exam 1z0-529
 Oracle Enterprise Manager 11g Application Quality Management Essentials
 http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-529&p_org_id=&lang=
 
-You get after paying $245 and answering 76% of 70 multiple choice questions correctly in 120 minutes.
+1. [Pay $245 for a voucher](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=609&p_org_id=1001&lang=US&get_params=dc:D85847,p_preview:N)
+2. Look for a test center near you at https://wsr.pearsonvue.com/testtaker/registration/SelectTestCenterProximity/ORACLE/489836
+2. Schedule an exam time at http://pearsonvue.com/oracle/
+3. Show up and answer 76% of 70 multiple choice questions correctly within 120 minutes.
 
 Application Testing Suite (ATS)
 
