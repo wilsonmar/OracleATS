@@ -91,10 +91,13 @@ Within folder C:\OracleATS\oxe\oradata\XE
 These cannot be deleted unless services referencing them are stopped.
 
 ## <a name="WindowsStart">Windows Start menu</a>
-1. Click Start orb
+1. Click Start orb (right-click on each item to remove from list = delete)
 
-* OpenScript appears
-
+	* OpenScript 
+	* Oracle Load Testing Agent Authentication Manager
+	* Stop Database
+	* 
+	
 2. Click **All Programs**
 3. Under **Oracle Application Testing Suite**:
 
@@ -123,6 +126,7 @@ These cannot be deleted unless services referencing them are stopped.
 	* Restart Oracle Application Testing - target C:\OracleATS\bin\restartSvc.bat "Oracle ATS Server"
 	* Stop Oracle Application Testing - target C:\OracleATS\bin\stopSvc.bat "Oracle ATS Server"
 
+4. Under **Oracle Application Testing Suite**:
 
 ### <a name="ServicesInstalled"> Services Installed</a>
 1. Press the Windows Start key or click the Windows Start orb.
@@ -187,6 +191,18 @@ unless these actions remove the dependencies:
 6. Note this also disables **OpenScript BHO** as well.
 7. Click Close button to dismiss the window.
 8. Exit all instances of Internet Explorer.
+
+## <a name="UninstallPrograms"> UnInstall Programs</a>
+
+1. Press the Windows key or click the Start orb.
+2. Select Control Panel on the right panel.
+3. Select Programs and Features.
+4. Click on one of the programs and press O.
+5. Right-click on **Oracle Data Provider for .NET Help** and select Uninstall.
+6. Select Yes for the UAC.
+7. Right-click on **Oracle Database 10g Express Edition** and select Uninstall.
+8. Wait for the pop-up "Do you want to completely completely remove the selected application and all its features?".
+9. Click Finish.
 
 ## <a name="Uninstall"> Uninstall Steps</a>
 
