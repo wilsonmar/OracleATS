@@ -88,10 +88,15 @@ Within folder C:\OracleATS\oxe\oradata\XE
 * UNDO.DBF
 * USERS.DBF
 
+These cannot be deleted unless services referencing them are stopped.
+
 ## <a name="WindowsStart">Windows Start menu</a>
 1. Click Start orb
-2. Click All Programs
-3. Under Oracle Application Testing Suite:
+
+* OpenScript appears
+
+2. Click **All Programs**
+3. Under **Oracle Application Testing Suite**:
 
 * Administrator - Shortcut To http://localhost:8088/admin (does not support IE 11)
 * OpenScript - C:\OracleATS\openScript\OpenScript.exe -configuration openscript_configuration -vm C:\OracleATS\openScript\jre\bin\javaw.exe -vmargs -Xmx512m -XX:MaxPermSize=256m
