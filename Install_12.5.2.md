@@ -34,6 +34,18 @@
 8. Errors 
 9. Right-click on the folder. It's 1.77 GB.
 
+## <a name="Uninstall"> Uninstall Steps</a>
+
+There is no uninstaller. Lame, I know. 
+But it's more "manly" to uninstall manually. ;)
+
+QUESTION:
+In http://www.oracle.com/technetwork/database/10204-winx64-vista-win2k8-082253.html
+there is a mention of using some **Oracle Universal Installer (OUI)**
+to uninstall all Oracle components. But I can't find it
+http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
+
+
 ### <a name="EnvVars">Environment Variables Created</a>
 
 	* DB_HOST
@@ -203,17 +215,6 @@ unless these actions remove the dependencies:
 7. Right-click on **Oracle Database 10g Express Edition** and select Uninstall.
 8. Wait for the pop-up "Do you want to completely completely remove the selected application and all its features?".
 9. Click Finish.
-
-## <a name="Uninstall"> Uninstall Steps</a>
-
-There is no uninstaller. Lame, I know. 
-But it's more "manly" to uninstall manually. ;)
-
-QUESTION:
-In http://www.oracle.com/technetwork/database/10204-winx64-vista-win2k8-082253.html
-there is a mention of using some **Oracle Universal Installer (OUI)**
-to uninstall all Oracle components. But I can't find it
-http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
 
 #### Remove Oracle Windows Registry Entries:
 1. Open a Run window as Administrator.
