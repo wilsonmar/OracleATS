@@ -2,6 +2,8 @@
 
 
 * <a href="#InstallSteps">Installation Steps</a>
+* <a href="#Uninstall"> Uninstall Steps</a>
+
 * <a href="#EnvVars">Environment Variables created</a>
 * <a href="#FoldersCreated"> Folders Created</a>
 * <a href="#AppData"> Application Data</a>
@@ -9,7 +11,6 @@
 * <a href="#ServicesInstalled">Services installed</a>
 * <a href="#WindowsRegistry">Windows Registry</a>
 * <a href="#IEToolbar"> IE Toolbar</a>
-* <a href="#Uninstall"> Uninstall Steps</a>
 
 ### <a name="InstallSteps">Installation Steps</a>
 
