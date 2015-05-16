@@ -1,6 +1,5 @@
 # OracleATS 12.5.0.2 Installation
 
-
 * <a href="#InstallSteps">Installation Steps</a>
 * <a href="#Uninstall"> Uninstall Steps</a>
 
@@ -15,9 +14,13 @@
 
 ## <a name="InstallSteps">Installation Steps</a>
 
-1. Uninstall the previous OATS.
-2. Click to download file oats-win64-full-12.5.0.1.287.zip  (1,635,871 KB). This took over an hour over my 3MB/sec line. 
-3. Expand zip file. Folders:
+1. <a href="#Uninstall">Uninstall</a> the previous OATS.
+2. Open an internet browser to http://www.oracle.com/technetwork/oem/downloads/index-084446.html
+3. Click to Accept the license agreement.
+4. Click to for Microsoft Windows (64-bit). NOTE: OATS was not designed to run on Linux or Mac machines.
+5. Click Save to your Downloads folder the file **oats-win64-full-12.5.0.2.537.zip** (1,635,871 KB). 
+	This took over an hour over my 3MB/sec line. 
+6. Expand zip file. Folders:
 
 	* bin - binary Windows .bat batch and Linux .sh shell scripts
   	* docs - documents (pdf and web HTML files) in english and japanese.
@@ -29,12 +32,11 @@
 	* stage
 	* wls - weblogic server
 
-4. Click on the **setup.bat** file to invoke the installer.
-5. In Windows Explorer, right-click on **setup.bat** to Run as Administrator.
-6. Click Install.
-7. Confirm default folder **C:\OracleATS**. 
-8. Errors 
-9. Right-click on the folder. It's 1.77 GB.
+7. In Windows Explorer, right-click on **setup.bat** to Run as Administrator.
+8. 
+9. Click Install.
+10. Confirm default folder **C:\OracleATS**. 
+11. Right-click on the folder.
 
 
 ## <a name="Uninstall"> Uninstall Steps</a>
