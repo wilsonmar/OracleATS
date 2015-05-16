@@ -259,7 +259,7 @@ unless these actions remove the dependencies:
 
 4. Right-click on **Oracle.OATS.OpenScript.IETool..** and select Disable.
 5. Confirm Disable.
-6. Note this also disables **OpenScript BHO** as well.
+6. Notice this also automatically disables **OpenScript BHO** as well.
 7. Click Close button to dismiss the window.
 8. Exit all instances of Internet Explorer.
 
