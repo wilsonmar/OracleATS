@@ -1,18 +1,18 @@
-## OATS 12.5.0.2 Installation
+# OracleATS 12.5.0.2 Installation
 
 
 * <a href="#InstallSteps">Installation Steps</a>
 * <a href="#Uninstall"> Uninstall Steps</a>
 
-* <a href="#EnvVars">Environment Variables created</a>
-* <a href="#FoldersCreated"> Folders Created</a>
-* <a href="#AppData"> Application Data</a>
-* <a href="#WindowsStart">Windows Start menu</a>
-* <a href="#ServicesInstalled">Services installed</a>
-* <a href="#WindowsRegistry">Windows Registry</a>
-* <a href="#IEToolbar"> IE Toolbar</a>
+	* <a href="#WindowsRegistry">Windows Registry</a>
+	* <a href="#EnvVars">Environment Variables created</a>
+	* <a href="#FoldersCreated"> Folders Created</a>
+	* <a href="#AppData"> Application Data</a>
+	* <a href="#WindowsStart">Windows Start menu</a>
+	* <a href="#ServicesInstalled">Services installed</a>
+	* <a href="#IEToolbar"> IE Toolbar</a>
 
-### <a name="InstallSteps">Installation Steps</a>
+## <a name="InstallSteps">Installation Steps</a>
 
 1. Uninstall the previous OATS.
 2. Click to download file oats-win64-full-12.5.0.1.287.zip  (1,635,871 KB). This took over an hour over my 3MB/sec line. 
@@ -46,15 +46,51 @@ there is a mention of using some **Oracle Universal Installer (OUI)**
 to uninstall all Oracle components. But I can't find it
 http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
 
+1.	Delete <a href="#EnvVars">Environment Variables</a>
+1.	Stop <a href="#ServicesInstalled">Services installed</a>
+2.	Delete the "C:\Program Files\Oracle" directory.
+3.	Delete <a href="#WindowsRegistry">Windows Registry</a>
+5.	Delete <a href="#FoldersCreated"> Folders (OracleATS down)</a>
+6.	Delete <a href="#AppData"> Application Data</a>
+7.	Delete <a href="#WindowsStart">Windows Start menu</a>
+8.	Delete <a href="#IEToolbar"> IE Toolbar</a>
+
+8. Delete the "C:\OracleATS" directory, or whatever directory is your ORACLE_BASE.
+10. Empty the contents of your "c:\temp" directory.
+11. Empty Recycle Bin.
+
+
+### <a name="WindowsRegistry">Windows Registry</a>
+
+1. Open a Run window as Administrator.
+2. Invoke **regedit.exe** 
+3. Right-click 
+4. Click to navigate to each Oracle Window Registry,
+	except "Oracle VM Virtualbox" which is unrelated to OATS.
+
+* **HKEY_LOCAL_MACHINE/SOFTWARE/Oracle**. 
+
+* Within **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services/**
+  
+	* OracleATSAgent, 
+	* OracleATSHelper, 
+	* OracleATSServer, 
+	* OracleJobSchedulerXE, 
+	* OracleMTSRecoveryService, 
+	* OracleServiceXE, 
+	* OracleXEClrAgent, 
+	* OracleXENSListener
+
+5. select Delete
+6. Repeat until all gone.
+7. Reboot machine.
+
 
 ### <a name="EnvVars">Environment Variables Created</a>
 
-	* DB_HOST
-	* DB_HOSTNAME
-	* DB_PASS
-	* DB_PORT
-	* DB_URL
-	* DB_USER
+Environment Variables provide a pointer to folders containing executable programs:
+
+The installer populates:
 
 * $HELPER_SERVICE = 7979
 * $MW_HOME = C:\OracleATS\wls
@@ -67,7 +103,18 @@ http://www.oracle.com/technetwork/database/database-technologies/express-edition
 
 (Acronymn WL = WebLogic and WLS = WebLogic Server, the middleware product Oracle got when it acquired BEA).
 
-### <a name="FoldersCreated"> OracleATS Folders Created</a>
+Additional configuration is needed to populate:
+
+	* DB_HOST
+	* DB_HOSTNAME
+	* DB_PASS
+	* DB_PORT
+	* DB_URL
+	* DB_USER
+
+### <a name="ProgramFiles"> ProgramFiles</a>
+
+### <a name="FoldersCreated"> Folders (OracleATS down)</a>
 
 What's in each folder:
 
@@ -103,7 +150,7 @@ Within folder C:\OracleATS\oxe\oradata\XE
 
 These cannot be deleted unless services referencing them are stopped.
 
-## <a name="WindowsStart">Windows Start menu</a>
+### <a name="WindowsStart">Windows Start menu</a>
 1. Click Start orb (right-click on each item to remove from list = delete)
 
 	* OpenScript 
@@ -176,22 +223,7 @@ Listed alphabetically, as shown in the Windows Services dialog:
 After removing Windows Registry entries for Oracle, services installed no longer appears.
 
 
-### <a name="WindowsRegistry">Windows Registry</a>
-
-* **HKEY_LOCAL_MACHINE/SOFTWARE/Oracle**. 
-
-* Within **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services/**
-  
-	* OracleATSAgent, 
-	* OracleATSHelper, 
-	* OracleATSServer, 
-	* OracleJobSchedulerXE, 
-	* OracleMTSRecoveryService, 
-	* OracleServiceXE, 
-	* OracleXEClrAgent, 
-	* OracleXENSListener
-
-## <a name="IEToolbar"> Remove IE Toolbar</a>
+### <a name="IEToolbar"> IE Toolbar</a>
 
 Windows does not allow delete of folder C:\OracleATS\openScript\Oracle IE Toolbar
 unless these actions remove the dependencies:
@@ -205,7 +237,7 @@ unless these actions remove the dependencies:
 7. Click Close button to dismiss the window.
 8. Exit all instances of Internet Explorer.
 
-## <a name="UninstallPrograms"> UnInstall Programs</a>
+### <a name="UninstallPrograms"> Programs</a>
 
 1. Press the Windows key or click the Start orb.
 2. Select Control Panel on the right panel.
@@ -217,17 +249,3 @@ unless these actions remove the dependencies:
 8. Wait for the pop-up "Do you want to completely completely remove the selected application and all its features?".
 9. Click Finish.
 
-#### Remove Oracle Windows Registry Entries:
-1. Open a Run window as Administrator.
-2. Invoke **regedit.exe** 
-3. Right-click 
-4. Click to navigate to each <a href="#WindowsRegistry">Oracle Window Registry</a>,
-	except "Oracle VM Virtualbox" which is unrelated to OATS.
-5. select Delete
-6. Repeat until all gone.
-7. Reboot machine.
-
-8. Delete the "C:\OracleATS" directory, or whatever directory is your ORACLE_BASE.
-9. Delete the "C:\Program Files\Oracle" directory.
-10. Empty the contents of your "c:\temp" directory.
-11. Empty Recycle Bin.
