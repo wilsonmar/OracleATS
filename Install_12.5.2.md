@@ -4,12 +4,13 @@
 * <a href="#InstallSteps">Installation Steps</a>
 * <a href="#Uninstall"> Uninstall Steps</a>
 
+	* <a href="#ServicesInstalled">Services installed</a>
 	* <a href="#WindowsRegistry">Windows Registry</a>
+	* <a href="#ProgramFiles"> C:\Program Files\Oracle directory</a>
 	* <a href="#EnvVars">Environment Variables created</a>
 	* <a href="#FoldersCreated"> Folders Created</a>
 	* <a href="#AppData"> Application Data</a>
 	* <a href="#WindowsStart">Windows Start menu</a>
-	* <a href="#ServicesInstalled">Services installed</a>
 	* <a href="#IEToolbar"> IE Toolbar</a>
 
 ## <a name="InstallSteps">Installation Steps</a>
@@ -48,17 +49,55 @@ to uninstall all Oracle components. But I can't find it
 http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
 
 1.	Delete <a href="#EnvVars">Environment Variables</a>
-1.	Stop <a href="#ServicesInstalled">Services installed</a>
-2.	Delete <a href="#ProgramFiles"> C:\Program Files\Oracle directory</a>
-3.	Delete <a href="#WindowsRegistry">Windows Registry</a>
+2.	<a href="#StopServicesInstalled"> Stop Services installed</a>
+3.	Delete <a href="#ProgramFiles"> C:\Program Files\Oracle directory</a>
+4.	Delete <a href="#WindowsRegistry">Windows Registry</a>
 5.	Delete <a href="#FoldersCreated"> Folders (OracleATS down)</a>
 6.	Delete <a href="#AppData"> Application Data</a>
 7.	Delete <a href="#WindowsStart">Windows Start menu</a>
-8.	Delete <a href="#IEToolbar"> IE Toolbar</a>
+8.	Delete <a href="#IEToolbar"> IE Toolbar Add-ons</a>
 
 8. Delete the "C:\OracleATS" directory, or whatever directory is your ORACLE_BASE.
 10. Empty the contents of your "c:\temp" directory.
 11. Empty Recycle Bin.
+
+
+### <a name="StopServicesInstalled"> Stop Services Installed</a>
+1. Press the Windows Start key or click the Windows Start orb.
+2. Type **Services** and press Enter for the Component Services dialog.
+3. Click on **Services(Local)** for the list of services.
+3. Click on one of the services under the Name column heading and press O.
+
+For each <a href="#ServicesInstalled"> service Installed</a>:
+4. Right-click on each Oracle service and select Stop.
+5. Click the red X at the upper-right corner of the window to dismiss the window.
+
+After removing Windows Registry entries for Oracle, services installed no longer appears.
+
+### <a name="ServicesInstalled"> Services Installed</a>
+
+Listed alphabetically, as shown in the Windows Services dialog:
+
+* **Oracle ATS Agent** - Launch requested load agents and monitor process health.
+	Started automatically from
+	C:\OracleATS\agentmanager\bin\AgentManagerService.exe -s C:\OracleATS\agentmanager\bin\\AgentManagerService.conf
+	
+* **Oracle ATS Helper** - Query helpers launched by OpenScript/JavaAgent and reuse them.
+	Started automatically from 
+	C:\OracleATS\helperService\bin\wrapper.exe -s C:\OracleATS\helperService\conf\wrapper.conf
+	
+* **Oracle ATS Server** at C:\ORACLE~1\wls\wlserver\server\bin\beasvc.exe
+
+* **OracleServiceXE** -
+	Auto started at c:\oracleats\oxe\app\oracle\product\10.2.0\server\bin\ORACLE.EXE XE
+
+* **OracleJobSchedulerXE** - Disabled at c:\oracleats\oxe\app\oracle\product\10.2.0\server\Bin\extjob.exe XE
+
+* **OracleXEClrAgent** - Manually started from C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin\OraClrAgnt.exe agent_sid=CLRExtProc max_dispatchers=2 tcp_dispatchers=0 max_task_threads=6 max_sessions=25
+
+* **OracleXETNSListener** - 
+	Started automatically at C:\OracleATS\oxe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe
+
 
 
 ### <a name="WindowsRegistry">Windows Registry</a>
@@ -87,6 +126,13 @@ http://www.oracle.com/technetwork/database/database-technologies/express-edition
 7. Reboot machine.
 
 
+### <a name="ProgramFiles"> ProgramFiles</a>
+In C:\Program Files are stored 64-bit programs.
+
+Several unrelated producs from Oracle are stored within the C:\Program Files\**Oracle** folder
+created during installation.
+
+
 ### <a name="EnvVars">Environment Variables Created</a>
 
 Environment Variables provide a pointer to folders containing executable programs:
@@ -100,7 +146,6 @@ The installer populates:
 * $Path = C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin;....
 * $WL_HOME = C:\OracleATS\wls\wlserver
 * $WLS_PASS
-* $PATH  added?
 
 (Acronymn WL = WebLogic and WLS = WebLogic Server, the middleware product Oracle got when it acquired BEA).
 
@@ -113,12 +158,7 @@ Additional configuration is needed to populate:
 	* DB_URL
 	* DB_USER
 
-### <a name="ProgramFiles"> ProgramFiles</a>
-In C:\Program Files are stored 64-bit programs.
-
-Several unrelated producs from Oracle are stored within the C:\Program Files\**Oracle** folder
-created during installation.
-
+* $PATH  added?
 
 ### <a name="FoldersCreated"> Folders (OracleATS down)</a>
 
@@ -194,54 +234,6 @@ These cannot be deleted unless services referencing them are stopped.
 
 4. Under **Oracle Application Testing Suite**:
 
-### <a name="ServicesInstalled"> Services Installed</a>
-1. Press the Windows Start key or click the Windows Start orb.
-2. Type **Services** and press Enter for the Component Services dialog.
-3. Click on **Services(Local)** for the list of services.
-3. Click on one of the services under the Name column heading and press O.
-
-Listed alphabetically, as shown in the Windows Services dialog:
-
-* **Oracle ATS Agent** - Launch requested load agents and monitor process health.
-	Started automatically from
-	C:\OracleATS\agentmanager\bin\AgentManagerService.exe -s C:\OracleATS\agentmanager\bin\\AgentManagerService.conf
-	
-* **Oracle ATS Helper** - Query helpers launched by OpenScript/JavaAgent and reuse them.
-	Started automatically from 
-	C:\OracleATS\helperService\bin\wrapper.exe -s C:\OracleATS\helperService\conf\wrapper.conf
-	
-* **Oracle ATS Server** at C:\ORACLE~1\wls\wlserver\server\bin\beasvc.exe
-
-* **OracleServiceXE** -
-	Auto started at c:\oracleats\oxe\app\oracle\product\10.2.0\server\bin\ORACLE.EXE XE
-
-* **OracleJobSchedulerXE** - Disabled at c:\oracleats\oxe\app\oracle\product\10.2.0\server\Bin\extjob.exe XE
-
-* **OracleXEClrAgent** - Manually started from C:\OracleATS\oxe\app\oracle\product\10.2.0\server\bin\OraClrAgnt.exe agent_sid=CLRExtProc max_dispatchers=2 tcp_dispatchers=0 max_task_threads=6 max_sessions=25
-
-* **OracleXETNSListener** - 
-	Started automatically at C:\OracleATS\oxe\app\oracle\product\10.2.0\server\BIN\tnslsnr.exe
-
-#### Stop services running:
-4. Right-click on each Oracle service and select Stop.
-5. Click the red X at the upper-right corner of the window to dismiss the window.
-
-After removing Windows Registry entries for Oracle, services installed no longer appears.
-
-
-### <a name="IEToolbar"> IE Toolbar</a>
-
-Windows does not allow delete of folder C:\OracleATS\openScript\Oracle IE Toolbar
-unless these actions remove the dependencies:
-
-1. Open Internet Explorer.
-2. Click the wheel icon at the upper right corner and select **Manage add-ons**.
-3. Click Toolbars and Extensions in Add-on Types.
-4. Right-click on **Oracle.OATS.OpenScript.IETool..** and select Disable.
-5. Confirm Disable.
-6. Note this also disables **OpenScript BHO** as well.
-7. Click Close button to dismiss the window.
-8. Exit all instances of Internet Explorer.
 
 ### <a name="UninstallPrograms"> Programs</a>
 
@@ -254,4 +246,19 @@ unless these actions remove the dependencies:
 7. Right-click on **Oracle Database 10g Express Edition** and select Uninstall.
 8. Wait for the pop-up "Do you want to completely completely remove the selected application and all its features?".
 9. Click Finish.
+
+
+### <a name="IEToolbar"> IE Toolbar Add-ons</a>
+
+Windows does not allow delete of folder C:\OracleATS\openScript\Oracle IE Toolbar
+unless these actions remove the dependencies:
+
+1. Open Internet Explorer.
+2. Click the wheel icon at the upper right corner and select **Manage add-ons**.
+3. Click Toolbars and Extensions in Add-on Types.
+4. Right-click on **Oracle.OATS.OpenScript.IETool..** and select Disable.
+5. Confirm Disable.
+6. Note this also disables **OpenScript BHO** as well.
+7. Click Close button to dismiss the window.
+8. Exit all instances of Internet Explorer.
 
