@@ -254,6 +254,9 @@ unless these actions remove the dependencies:
 1. Open Internet Explorer.
 2. Click the wheel icon at the upper right corner and select **Manage add-ons**.
 3. Click Toolbars and Extensions in Add-on Types.
+
+	![](https://cloud.githubusercontent.com/assets/300046/7665886/327122c4-fb89-11e4-941d-0626b132379b.png?raw=true)
+
 4. Right-click on **Oracle.OATS.OpenScript.IETool..** and select Disable.
 5. Confirm Disable.
 6. Note this also disables **OpenScript BHO** as well.
