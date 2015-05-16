@@ -5,9 +5,9 @@
 * <a href="#Uninstall"> Uninstall Steps</a>
 
 	* <a href="#ServicesInstalled">Services installed</a>
-	* <a href="#WindowsRegistry">Windows Registry</a>
-	* <a href="#ProgramFiles"> C:\Program Files\Oracle directory</a>
 	* <a href="#EnvVars">Environment Variables created</a>
+	* <a href="#ProgramFiles"> C:\Program Files\Oracle directory</a>
+	* <a href="#WindowsRegistry">Windows Registry</a>
 	* <a href="#FoldersCreated"> Folders Created</a>
 	* <a href="#AppData"> Application Data</a>
 	* <a href="#WindowsStart">Windows Start menu</a>
@@ -48,8 +48,8 @@ there is a mention of using some **Oracle Universal Installer (OUI)**
 to uninstall all Oracle components. But I can't find it
 http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html
 
-1.	Delete <a href="#EnvVars">Environment Variables</a>
-2.	<a href="#StopServicesInstalled"> Stop Services installed</a>
+1.	<a href="#StopServicesInstalled"> Stop Services installed</a>
+2.	Delete <a href="#EnvVars">Environment Variables</a>
 3.	Delete <a href="#ProgramFiles"> C:\Program Files\Oracle directory</a>
 4.	Delete <a href="#WindowsRegistry">Windows Registry</a>
 5.	Delete <a href="#FoldersCreated"> Folders (OracleATS down)</a>
@@ -100,39 +100,6 @@ Listed alphabetically, as shown in the Windows Services dialog:
 
 
 
-### <a name="WindowsRegistry">Windows Registry</a>
-
-1. Open a Run window as Administrator.
-2. Invoke **regedit.exe** 
-3. Right-click 
-4. Click to navigate to each Oracle Window Registry,
-	except "Oracle VM Virtualbox" which is unrelated to OATS.
-
-	* **HKEY_LOCAL_MACHINE/SOFTWARE/Oracle**. 
-
-	* Within **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services/**
-  
-		* OracleATSAgent, 
-		* OracleATSHelper, 
-		* OracleATSServer, 
-		* OracleJobSchedulerXE, 
-		* OracleMTSRecoveryService, 
-		* OracleServiceXE, 
-		* OracleXEClrAgent, 
-		* OracleXENSListener
-
-5. select Delete
-6. Repeat until all gone.
-7. Reboot machine.
-
-
-### <a name="ProgramFiles"> ProgramFiles</a>
-In C:\Program Files are stored 64-bit programs.
-
-Several unrelated producs from Oracle are stored within the C:\Program Files\**Oracle** folder
-created during installation.
-
-
 ### <a name="EnvVars">Environment Variables Created</a>
 
 Environment Variables provide a pointer to folders containing executable programs:
@@ -159,6 +126,39 @@ Additional configuration is needed to populate:
 	* DB_USER
 
 * $PATH  added?
+
+### <a name="ProgramFiles"> ProgramFiles</a>
+In C:\Program Files are stored 64-bit programs.
+
+Several unrelated producs from Oracle are stored within the C:\Program Files\**Oracle** folder
+created during installation.
+
+
+### <a name="WindowsRegistry">Windows Registry</a>
+
+1. Open a Run window as Administrator.
+2. Invoke **regedit.exe** 
+3. Right-click 
+4. Click to navigate to each Oracle Window Registry,
+	except "Oracle VM Virtualbox" which is unrelated to OATS.
+
+	* **HKEY_LOCAL_MACHINE/SOFTWARE/Oracle**. 
+
+	* Within **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services/**
+  
+		* OracleATSAgent, 
+		* OracleATSHelper, 
+		* OracleATSServer, 
+		* OracleJobSchedulerXE, 
+		* OracleMTSRecoveryService, 
+		* OracleServiceXE, 
+		* OracleXEClrAgent, 
+		* OracleXENSListener
+
+5. select Delete
+6. Repeat until all gone.
+7. Reboot machine.
+
 
 ### <a name="FoldersCreated"> Folders (OracleATS down)</a>
 
