@@ -31,8 +31,13 @@ Text in italics are the narration in the video.
 6. Click Save to your Downloads folder the file **oats-win64-full-12.5.0.2.537.zip** (1,635,871 KB). 
 
 	*This took over an hour over my 3MB/sec line.* 
+	*Different browsers have different ways of handling downloads.*
+	*Firefox browsers display status.*
+	
+	*Windows Explorer has a built-in unzip utility.*
 
-7. Expand zip file. Folders:
+7. In Windows Explorer, click **Extract all files**.
+8. Click **Extract** to expand within the Downloads folders.
 
 	* bin - binary Windows .bat batch and Linux .sh shell scripts
   	* docs - documents (pdf and web HTML files) in english and japanese.
@@ -46,10 +51,37 @@ Text in italics are the narration in the video.
 
 	*One can't simply click on Setup.bat*
 
-8. In Windows Explorer, right-click on **setup.bat** to Run as Administrator.
-9. Click Install.
-10. Confirm default folder **C:\OracleATS**. 
-11. Right-click on the folder.
+9. In Windows Explorer, right-click on **setup.bat** to Run as Administrator.
+ 
+	*The .bat Windows batch file extension is what causes the command windows to appear momentarily.* 
+
+10. Click Next.
+ 
+	*Oracle ATS is part of the Oracle Enterprise Manager family of software*
+
+12. Click Next to accept the Complete install.
+
+	*The prediction is 1.57 gigabytes to be created, 
+	which will take a few minutes to load Java and other prerequisites.*
+
+	*Here there is a listing of the various components of the product.*
+
+	*There is also a stand-alone installer of just the OpenScript, which only works on Windows.*
+
+11. Click Next to confirm default folder **C:\OracleATS**. 
+ 
+	*All the documentation refer to this default folder name, so it's best to leave it as is.*
+
+13. Enter the password twice.
+
+	*You'll need to provide it again, so open a Notepad window or your email and
+	type in the password there, then copy it and paste it in the field.
+
+14. This program doesn't take passwords beginning with a number.
+
+	*For a strongr password, add more characters or numbers rather than special characters.*
+
+15. Click OK if the Windows Firewall warning appears.
 
 
 ## <a name="Uninstall"> Uninstall Steps</a>
