@@ -17,7 +17,7 @@
 1. <a href="#Uninstall">Uninstall</a> the previous OATS.
 2. Open an internet browser to http://www.oracle.com/technetwork/oem/downloads/index-084446.html
 3. Click to Accept the license agreement.
-4. Click to for Microsoft Windows (64-bit). NOTE: OATS was not designed to run on Linux or Mac machines.
+4. Click to download **Microsoft Windows (64-bit)**. NOTE: OATS was not designed to run on Linux or Mac machines.
 5. Click Save to your Downloads folder the file **oats-win64-full-12.5.0.2.537.zip** (1,635,871 KB). 
 	This took over an hour over my 3MB/sec line. 
 6. Expand zip file. Folders:
@@ -31,6 +31,8 @@
 	* oui
 	* stage
 	* wls - weblogic server
+
+	*One can't just click on Setup.bat*
 
 7. In Windows Explorer, right-click on **setup.bat** to Run as Administrator.
 8. 
