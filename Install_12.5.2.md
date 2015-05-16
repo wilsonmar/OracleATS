@@ -232,8 +232,6 @@ These cannot be deleted unless services referencing them are stopped.
 	* Restart Oracle Application Testing - target C:\OracleATS\bin\restartSvc.bat "Oracle ATS Server"
 	* Stop Oracle Application Testing - target C:\OracleATS\bin\stopSvc.bat "Oracle ATS Server"
 
-4. Under **Oracle Application Testing Suite**:
-
 
 ### <a name="UninstallPrograms"> Programs</a>
 
