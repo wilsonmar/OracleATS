@@ -35,6 +35,7 @@
 8. Errors 
 9. Right-click on the folder. It's 1.77 GB.
 
+
 ## <a name="Uninstall"> Uninstall Steps</a>
 
 There is no uninstaller. Lame, I know. 
@@ -48,7 +49,7 @@ http://www.oracle.com/technetwork/database/database-technologies/express-edition
 
 1.	Delete <a href="#EnvVars">Environment Variables</a>
 1.	Stop <a href="#ServicesInstalled">Services installed</a>
-2.	Delete the "C:\Program Files\Oracle" directory.
+2.	Delete <a href="#ProgramFiles"> C:\Program Files\Oracle directory</a>
 3.	Delete <a href="#WindowsRegistry">Windows Registry</a>
 5.	Delete <a href="#FoldersCreated"> Folders (OracleATS down)</a>
 6.	Delete <a href="#AppData"> Application Data</a>
@@ -68,18 +69,18 @@ http://www.oracle.com/technetwork/database/database-technologies/express-edition
 4. Click to navigate to each Oracle Window Registry,
 	except "Oracle VM Virtualbox" which is unrelated to OATS.
 
-* **HKEY_LOCAL_MACHINE/SOFTWARE/Oracle**. 
+	* **HKEY_LOCAL_MACHINE/SOFTWARE/Oracle**. 
 
-* Within **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services/**
+	* Within **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/services/**
   
-	* OracleATSAgent, 
-	* OracleATSHelper, 
-	* OracleATSServer, 
-	* OracleJobSchedulerXE, 
-	* OracleMTSRecoveryService, 
-	* OracleServiceXE, 
-	* OracleXEClrAgent, 
-	* OracleXENSListener
+		* OracleATSAgent, 
+		* OracleATSHelper, 
+		* OracleATSServer, 
+		* OracleJobSchedulerXE, 
+		* OracleMTSRecoveryService, 
+		* OracleServiceXE, 
+		* OracleXEClrAgent, 
+		* OracleXENSListener
 
 5. select Delete
 6. Repeat until all gone.
@@ -113,6 +114,11 @@ Additional configuration is needed to populate:
 	* DB_USER
 
 ### <a name="ProgramFiles"> ProgramFiles</a>
+In C:\Program Files are stored 64-bit programs.
+
+Several unrelated producs from Oracle are stored within the C:\Program Files\**Oracle** folder
+created during installation.
+
 
 ### <a name="FoldersCreated"> Folders (OracleATS down)</a>
 
