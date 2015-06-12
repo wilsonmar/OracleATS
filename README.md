@@ -23,6 +23,8 @@ http://www.oracle.com/us/corporate/press/015619_EN
 
 ## <a name="SocialMedia"> Social Media</a>
 
+[![Join the chat at https://gitter.im/wilsonmar/OracleATS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wilsonmar/OracleATS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Oracle's marketing home page is at
 http://www.oracle.com/technetwork/oem/app-test/etest-101273.html
 
